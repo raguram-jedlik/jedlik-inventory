@@ -145,6 +145,22 @@ Your Google Sheet should have these tabs:
 
 ---
 
+## QR Codes & `NEXT_PUBLIC_APP_URL`
+
+QR codes are **baked at generation time** — each QR encodes the URL `${NEXT_PUBLIC_APP_URL}/scan?location=<id>`. Whatever value is set when the QR is generated is what employees will scan forever (until regenerated).
+
+**Production checklist:**
+1. In Vercel project settings → Environment Variables, set `NEXT_PUBLIC_APP_URL=https://inventory.jedlik.in` for the **Production** environment.
+2. Redeploy so the new env var is baked into the server bundle.
+3. In the app, go to **Admin → QR Codes** and click **Generate Missing QR Codes**. Existing rows in the `Storage Locations` sheet are skipped unless `QR Generated` is `FALSE`. If you need to force-regenerate *all* (e.g. after switching domains), open the sheet and clear the `QR Generated` column for every row, then click the button again.
+4. Verify one QR: scan it with your phone. It should land on `https://inventory.jedlik.in/scan?location=<id>` and auto-load the location.
+
+**Common pitfall:** if `NEXT_PUBLIC_APP_URL` is unset, set to `http://localhost:3000`, or pointing to an old Apps Script URL, generated QRs will be invalid. The server logs a warning when generating QRs without a production-safe URL — check the Vercel logs if you're unsure.
+
+**Local development** can keep `NEXT_PUBLIC_APP_URL=http://localhost:3000` — QRs you generate on `npm run dev` will only work on your local network.
+
+---
+
 ## License
 
 Internal use — Jedlik Motors Private Limited. Built with ⚡ for India's EV future.
