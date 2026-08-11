@@ -61,7 +61,7 @@ export default function SearchPage() {
   return (
     <>
       <div className="page-header animate-in">
-        <PageBrand size="sm" />
+        <PageBrand size="md" />
         <h1 className="page-title">Search</h1>
         <p className="page-subtitle">Find components, tools, and consumables</p>
       </div>

@@ -67,7 +67,7 @@ export default function ReportsPage() {
   return (
     <>
       <div className="page-header animate-in">
-        <PageBrand size="sm" />
+        <PageBrand size="md" />
         <h1 className="page-title">Reports</h1>
         <p className="page-subtitle">Generate inventory reports and export data</p>
       </div>

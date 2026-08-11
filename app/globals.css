@@ -1497,27 +1497,31 @@ td.mono { font-family: var(--font-mono); font-size: 0.8rem; }
   border-radius: var(--radius-md);
   padding: 4px;
   margin-bottom: var(--space-lg);
-  overflow-x: auto;
   border: 1px solid var(--border-medium);
   -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  scrollbar-width: none;
 }
+.tab-bar::-webkit-scrollbar { display: none; }
 
 .tab-item {
-  flex: 1;
-  padding: 10px 16px;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 10px 8px;
   border-radius: var(--radius-sm);
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 0.72rem;
   font-weight: 700;
   color: var(--text-muted);
   cursor: pointer;
   transition: all var(--transition-fast);
   white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
   border: none;
   background: none;
   text-transform: uppercase;
-  letter-spacing: 0.6px;
-  min-width: 0;
+  letter-spacing: 0.4px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -1526,6 +1530,17 @@ td.mono { font-family: var(--font-mono); font-size: 0.8rem; }
 .tab-item.active {
   background: var(--accent-primary);
   color: var(--bg-primary);
+}
+
+@media (max-width: 640px) {
+  /* Even tighter on phones — drop uppercase + tracking, allow horizontal pan */
+  .tab-item {
+    padding: 9px 10px;
+    font-size: 0.78rem;
+    letter-spacing: 0;
+    text-transform: none;
+    flex: 0 0 auto;
+  }
 }
 
 

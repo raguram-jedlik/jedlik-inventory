@@ -57,7 +57,7 @@ export default function PrintPage() {
   return (
     <>
       <div className="page-header animate-in no-print">
-        <PageBrand size="sm" />
+        <PageBrand size="md" />
         <h1 className="page-title">Print QR Labels</h1>
         <p className="page-subtitle">Select labels to print, or print all</p>
       </div>

@@ -154,7 +154,7 @@ export default function AdminPage() {
   return (
     <>
       <div className="page-header animate-in">
-        <PageBrand size="sm" />
+        <PageBrand size="md" />
         <h1 className="page-title">Admin Panel</h1>
         <p className="page-subtitle">Manage locations, employees, inventory, and QR codes</p>
       </div>
@@ -437,9 +437,9 @@ export default function AdminPage() {
           <div className="section-header">
             <h2 className="section-title">📱 QR Code Management</h2>
           </div>
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 'var(--space-sm)', marginBottom: 'var(--space-lg)' }}>
-            <button className="btn btn-primary" onClick={generateMissingQR}>Generate Missing QR Codes</button>
-            <Link href="/print" className="btn btn-secondary">🖨️ Print QR Labels</Link>
+          <div className="btn-group" style={{ marginBottom: 'var(--space-lg)', flexWrap: 'wrap' }}>
+            <button className="btn btn-primary flex-1" style={{ minWidth: '180px' }} onClick={generateMissingQR}>Generate Missing QR Codes</button>
+            <Link href="/print" className="btn btn-secondary flex-1" style={{ minWidth: '180px' }}>🖨️ Print QR Labels</Link>
           </div>
           {qrData.length === 0 ? (
             <div className="empty-state"><div className="empty-text">No locations found</div></div>
@@ -447,12 +447,12 @@ export default function AdminPage() {
             <div className="item-list">
               {qrData.map((loc, i) => (
                 <div key={i} className="item-row">
-                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-md)', flex: 1 }}>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-md)', flex: 1, minWidth: 0 }}>
                     {loc.qrGenerated && loc.qrCodeUrl ? (
                       <img src={loc.qrCodeUrl} alt={`QR ${loc.locationId}`}
-                        style={{ width: 48, height: 48, borderRadius: 4, background: 'white', padding: 2 }} loading="lazy" />
+                        style={{ width: 48, height: 48, borderRadius: 4, background: 'white', padding: 2, flexShrink: 0 }} loading="lazy" />
                     ) : (
-                      <div style={{ width: 48, height: 48, background: 'var(--bg-input)', borderRadius: 4, display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-muted)', fontSize: '1.2rem' }}>?</div>
+                      <div style={{ width: 48, height: 48, background: 'var(--bg-input)', borderRadius: 4, display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--text-muted)', fontSize: '1.2rem', flexShrink: 0 }}>?</div>
                     )}
                     <div className="item-info">
                       <div className="item-name text-mono" style={{ color: 'var(--accent-primary)' }}>{loc.locationId}</div>

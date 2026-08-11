@@ -21,7 +21,7 @@ export default function DashboardPage() {
     return (
       <>
         <div className="page-header animate-in">
-          <PageBrand size="sm" />
+          <PageBrand size="md" />
           <h1 className="page-title">Dashboard</h1>
           <p className="page-subtitle">Loading inventory data...</p>
         </div>
@@ -45,7 +45,7 @@ export default function DashboardPage() {
   return (
     <>
       <div className="page-header animate-in">
-        <PageBrand size="sm" />
+        <PageBrand size="md" />
         <h1 className="page-title">Dashboard</h1>
         <p className="page-subtitle">Real-time inventory overview</p>
       </div>

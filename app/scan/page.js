@@ -203,7 +203,7 @@ function ScanPageInner() {
     <>
       {/* Header — Jedlik logo + scan-specific title */}
       <div className="page-header animate-in">
-        <PageBrand size="sm" />
+        <PageBrand size="md" />
         <h1 className="page-title">Scan &amp; Transact</h1>
         <p className="page-subtitle">
           {step === 'location' && 'Scan a QR code or enter a storage location to begin.'}
