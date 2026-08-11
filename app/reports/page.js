@@ -77,12 +77,11 @@ export default function ReportsPage() {
         <div className="section-header">
           <h2 className="section-title">📋 Select Report</h2>
         </div>
-        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: 'var(--space-sm)' }}>
+        <div className="report-types-grid">
           {REPORT_TYPES.map((rt) => (
             <button
               key={rt.value}
-              className={`btn ${reportType === rt.value ? 'btn-primary' : 'btn-secondary'}`}
-              style={{ justifyContent: 'flex-start', fontSize: '0.85rem' }}
+              className={`btn ${reportType === rt.value ? 'btn-primary' : 'btn-secondary'} report-type-btn`}
               onClick={() => setReportType(rt.value)}
             >
               {rt.icon} {rt.label}

@@ -398,6 +398,28 @@ img { max-width: 100%; height: auto; display: block; }
   flex-wrap: wrap;
 }
 
+/* ── Report Type Picker Grid ─────────────────────────────
+   Used in /reports. Each label is short enough to fit in 4 cols
+   on desktop (~225px each), 2 cols on tablet, 1 col on phones. */
+.report-types-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(190px, 1fr));
+  gap: var(--space-sm);
+}
+
+.report-type-btn {
+  justify-content: flex-start;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+@media (max-width: 640px) {
+  /* Stack on phones — one button per row, easier to scan */
+  .report-types-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 .btn:disabled { opacity: 0.4; cursor: not-allowed; pointer-events: none; }
 
 
