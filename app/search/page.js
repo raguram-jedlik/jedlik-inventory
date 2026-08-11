@@ -2,6 +2,7 @@
 
 import { useState, useCallback } from 'react';
 import { useToast } from '@/components/Toast';
+import { PageBrand } from '@/components/Navbar';
 import { callApi, debounce, formatDate, formatCurrency } from '@/lib/utils';
 
 export default function SearchPage() {
@@ -59,12 +60,8 @@ export default function SearchPage() {
 
   return (
     <>
-      {/* Header */}
       <div className="page-header animate-in">
-        <div className="brand">
-          <span className="brand-icon">⚡</span>
-          <span className="brand-text">Jedlik <span className="brand-accent">Motors</span></span>
-        </div>
+        <PageBrand size="sm" />
         <h1 className="page-title">Search</h1>
         <p className="page-subtitle">Find components, tools, and consumables</p>
       </div>

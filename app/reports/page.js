@@ -3,6 +3,7 @@
 import { useState } from 'react';
 import { useToast } from '@/components/Toast';
 import { useLoading } from '@/components/LoadingOverlay';
+import { PageBrand } from '@/components/Navbar';
 import { callApi, copyToClipboard } from '@/lib/utils';
 
 const REPORT_TYPES = [
@@ -65,12 +66,8 @@ export default function ReportsPage() {
 
   return (
     <>
-      {/* Header */}
       <div className="page-header animate-in">
-        <div className="brand">
-          <span className="brand-icon">⚡</span>
-          <span className="brand-text">Jedlik <span className="brand-accent">Motors</span></span>
-        </div>
+        <PageBrand size="sm" />
         <h1 className="page-title">Reports</h1>
         <p className="page-subtitle">Generate inventory reports and export data</p>
       </div>

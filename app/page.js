@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import { useToast } from '@/components/Toast';
+import { PageBrand } from '@/components/Navbar';
 import { callApi, formatCurrency, timeAgo } from '@/lib/utils';
 
 export default function DashboardPage() {
@@ -20,10 +21,7 @@ export default function DashboardPage() {
     return (
       <>
         <div className="page-header animate-in">
-          <div className="brand">
-            <span className="brand-icon">⚡</span>
-            <span className="brand-text">Jedlik <span className="brand-accent">Motors</span></span>
-          </div>
+          <PageBrand size="sm" />
           <h1 className="page-title">Dashboard</h1>
           <p className="page-subtitle">Loading inventory data...</p>
         </div>
@@ -46,12 +44,8 @@ export default function DashboardPage() {
 
   return (
     <>
-      {/* Header */}
       <div className="page-header animate-in">
-        <div className="brand">
-          <span className="brand-icon">⚡</span>
-          <span className="brand-text">Jedlik <span className="brand-accent">Motors</span></span>
-        </div>
+        <PageBrand size="sm" />
         <h1 className="page-title">Dashboard</h1>
         <p className="page-subtitle">Real-time inventory overview</p>
       </div>

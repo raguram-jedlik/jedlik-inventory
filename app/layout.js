@@ -6,6 +6,9 @@ import { LoadingProvider } from '@/components/LoadingOverlay';
 export const metadata = {
   title: 'Jedlik Motors — Inventory System',
   description: 'Inventory management system for Jedlik Motors R&D lab. Track components, tools, and consumables with QR codes.',
+  icons: {
+    icon: '/jedlik-logo.png',
+  },
 };
 
 export const viewport = {

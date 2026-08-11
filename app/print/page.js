@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useToast } from '@/components/Toast';
 import { useLoading } from '@/components/LoadingOverlay';
+import { PageBrand } from '@/components/Navbar';
 import { callApi } from '@/lib/utils';
 
 export default function PrintPage() {
@@ -55,12 +56,8 @@ export default function PrintPage() {
 
   return (
     <>
-      {/* Header */}
       <div className="page-header animate-in no-print">
-        <div className="brand">
-          <span className="brand-icon">⚡</span>
-          <span className="brand-text">Jedlik <span className="brand-accent">Motors</span></span>
-        </div>
+        <PageBrand size="sm" />
         <h1 className="page-title">Print QR Labels</h1>
         <p className="page-subtitle">Select labels to print, or print all</p>
       </div>
@@ -108,7 +105,7 @@ export default function PrintPage() {
               <div className="label-id">{label.locationId}</div>
               <div className="label-name">{label.locationName || ''}</div>
               <div className="label-type">{label.storageType || ''}</div>
-              <div className="label-brand">⚡ Jedlik Motors</div>
+              <img src="/jedlik-logo.png" alt="Jedlik Motors" className="label-brand" />
             </div>
           ))}
         </div>

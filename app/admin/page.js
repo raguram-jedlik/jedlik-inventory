@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useToast } from '@/components/Toast';
 import { useLoading } from '@/components/LoadingOverlay';
+import { PageBrand } from '@/components/Navbar';
 import { callApi } from '@/lib/utils';
 import Link from 'next/link';
 
@@ -152,12 +153,8 @@ export default function AdminPage() {
 
   return (
     <>
-      {/* Header */}
       <div className="page-header animate-in">
-        <div className="brand">
-          <span className="brand-icon">⚡</span>
-          <span className="brand-text">Jedlik <span className="brand-accent">Motors</span></span>
-        </div>
+        <PageBrand size="sm" />
         <h1 className="page-title">Admin Panel</h1>
         <p className="page-subtitle">Manage locations, employees, inventory, and QR codes</p>
       </div>
