@@ -119,7 +119,7 @@
       "source_file": "next.config.mjs",
       "source_location": "L1",
       "id": "next_config_mjs",
-      "community": 15,
+      "community": 17,
       "norm_label": "next.config.mjs"
     },
     {
@@ -128,7 +128,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L1",
       "id": "eslint_config_mjs",
-      "community": 16,
+      "community": 18,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -137,7 +137,7 @@
       "source_file": "app/layout.js",
       "source_location": "L1",
       "id": "app_layout_js",
-      "community": 9,
+      "community": 11,
       "norm_label": "layout.js"
     },
     {
@@ -146,7 +146,7 @@
       "source_file": "app/layout.js",
       "source_location": "L34",
       "id": "app_layout_rootlayout",
-      "community": 9,
+      "community": 11,
       "norm_label": "rootlayout()"
     },
     {
@@ -207,7 +207,7 @@
       "label": "ScanPageInner()",
       "file_type": "code",
       "source_file": "app/scan/page.js",
-      "source_location": "L18",
+      "source_location": "L20",
       "id": "scan_page_scanpageinner",
       "community": 2,
       "norm_label": "scanpageinner()"
@@ -216,7 +216,7 @@
       "label": "ScanPage()",
       "file_type": "code",
       "source_file": "app/scan/page.js",
-      "source_location": "L530",
+      "source_location": "L567",
       "id": "scan_page_scanpage",
       "community": 2,
       "norm_label": "scanpage()"
@@ -272,7 +272,7 @@
       "source_file": "app/api/qr/route.js",
       "source_location": "L1",
       "id": "app_api_qr_route_js",
-      "community": 5,
+      "community": 1,
       "norm_label": "route.js"
     },
     {
@@ -281,7 +281,7 @@
       "source_file": "app/api/qr/route.js",
       "source_location": "L4",
       "id": "qr_route_get",
-      "community": 5,
+      "community": 1,
       "norm_label": "get()"
     },
     {
@@ -290,7 +290,7 @@
       "source_file": "app/api/qr/route.js",
       "source_location": "L14",
       "id": "qr_route_post",
-      "community": 5,
+      "community": 1,
       "norm_label": "post()"
     },
     {
@@ -362,7 +362,7 @@
       "source_file": "app/api/locations/route.js",
       "source_location": "L1",
       "id": "app_api_locations_route_js",
-      "community": 5,
+      "community": 3,
       "norm_label": "route.js"
     },
     {
@@ -371,7 +371,7 @@
       "source_file": "app/api/locations/route.js",
       "source_location": "L5",
       "id": "locations_route_get",
-      "community": 5,
+      "community": 3,
       "norm_label": "get()"
     },
     {
@@ -380,7 +380,7 @@
       "source_file": "app/api/locations/route.js",
       "source_location": "L15",
       "id": "locations_route_post",
-      "community": 5,
+      "community": 3,
       "norm_label": "post()"
     },
     {
@@ -510,12 +510,39 @@
       "norm_label": "reportspage()"
     },
     {
+      "label": "QrScanner.js",
+      "file_type": "code",
+      "source_file": "components/QrScanner.js",
+      "source_location": "L1",
+      "id": "components_qrscanner_js",
+      "community": 10,
+      "norm_label": "qrscanner.js"
+    },
+    {
+      "label": "QrScanner()",
+      "file_type": "code",
+      "source_file": "components/QrScanner.js",
+      "source_location": "L32",
+      "id": "components_qrscanner_qrscanner",
+      "community": 10,
+      "norm_label": "qrscanner()"
+    },
+    {
+      "label": "describeCameraError()",
+      "file_type": "code",
+      "source_file": "components/QrScanner.js",
+      "source_location": "L227",
+      "id": "components_qrscanner_describecameraerror",
+      "community": 10,
+      "norm_label": "describecameraerror()"
+    },
+    {
       "label": "Navbar.js",
       "file_type": "code",
       "source_file": "components/Navbar.js",
       "source_location": "L1",
       "id": "components_navbar_js",
-      "community": 8,
+      "community": 7,
       "norm_label": "navbar.js"
     },
     {
@@ -524,7 +551,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L8",
       "id": "components_navbar_pagebrand",
-      "community": 8,
+      "community": 7,
       "norm_label": "pagebrand()"
     },
     {
@@ -533,7 +560,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L13",
       "id": "components_navbar_icondashboard",
-      "community": 8,
+      "community": 7,
       "norm_label": "icondashboard()"
     },
     {
@@ -542,7 +569,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L19",
       "id": "components_navbar_iconscan",
-      "community": 8,
+      "community": 7,
       "norm_label": "iconscan()"
     },
     {
@@ -551,7 +578,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L26",
       "id": "components_navbar_iconsearch",
-      "community": 8,
+      "community": 7,
       "norm_label": "iconsearch()"
     },
     {
@@ -560,7 +587,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L33",
       "id": "components_navbar_iconreports",
-      "community": 8,
+      "community": 7,
       "norm_label": "iconreports()"
     },
     {
@@ -569,7 +596,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L40",
       "id": "components_navbar_iconadmin",
-      "community": 8,
+      "community": 7,
       "norm_label": "iconadmin()"
     },
     {
@@ -578,7 +605,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L55",
       "id": "components_navbar_navbar",
-      "community": 8,
+      "community": 7,
       "norm_label": "navbar()"
     },
     {
@@ -614,7 +641,7 @@
       "source_file": "components/Brand.js",
       "source_location": "L1",
       "id": "components_brand_js",
-      "community": 10,
+      "community": 12,
       "norm_label": "brand.js"
     },
     {
@@ -623,7 +650,7 @@
       "source_file": "components/Brand.js",
       "source_location": "L23",
       "id": "components_brand_brand",
-      "community": 10,
+      "community": 12,
       "norm_label": "brand()"
     },
     {
@@ -632,7 +659,7 @@
       "source_file": "components/ConfirmModal.js",
       "source_location": "L1",
       "id": "components_confirmmodal_js",
-      "community": 11,
+      "community": 13,
       "norm_label": "confirmmodal.js"
     },
     {
@@ -641,7 +668,7 @@
       "source_file": "components/ConfirmModal.js",
       "source_location": "L5",
       "id": "components_confirmmodal_confirmmodal",
-      "community": 11,
+      "community": 13,
       "norm_label": "confirmmodal()"
     },
     {
@@ -803,7 +830,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L1",
       "id": "lib_qr_service_js",
-      "community": 5,
+      "community": 1,
       "norm_label": "qr-service.js"
     },
     {
@@ -812,7 +839,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L33",
       "id": "lib_qr_service_generateqrcodeurl",
-      "community": 5,
+      "community": 1,
       "norm_label": "generateqrcodeurl()"
     },
     {
@@ -821,7 +848,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L62",
       "id": "lib_qr_service_getallqrdata",
-      "community": 5,
+      "community": 1,
       "norm_label": "getallqrdata()"
     },
     {
@@ -830,7 +857,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L92",
       "id": "lib_qr_service_generateallmissingqrcodes",
-      "community": 5,
+      "community": 1,
       "norm_label": "generateallmissingqrcodes()"
     },
     {
@@ -839,7 +866,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L123",
       "id": "lib_qr_service_generateqrcodeforlocation",
-      "community": 5,
+      "community": 1,
       "norm_label": "generateqrcodeforlocation()"
     },
     {
@@ -848,7 +875,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L148",
       "id": "lib_qr_service_getqrlabelsforprint",
-      "community": 5,
+      "community": 1,
       "norm_label": "getqrlabelsforprint()"
     },
     {
@@ -920,7 +947,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L121",
       "id": "lib_sheets_updatecell",
-      "community": 5,
+      "community": 1,
       "norm_label": "updatecell()"
     },
     {
@@ -1154,7 +1181,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L1",
       "id": "lib_utils_js",
-      "community": 6,
+      "community": 5,
       "norm_label": "utils.js"
     },
     {
@@ -1163,7 +1190,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L20",
       "id": "lib_utils_highresqrurl",
-      "community": 6,
+      "community": 5,
       "norm_label": "highresqrurl()"
     },
     {
@@ -1172,7 +1199,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L50",
       "id": "lib_utils_escapehtml",
-      "community": 6,
+      "community": 5,
       "norm_label": "escapehtml()"
     },
     {
@@ -1181,7 +1208,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L58",
       "id": "lib_utils_formatdate",
-      "community": 6,
+      "community": 5,
       "norm_label": "formatdate()"
     },
     {
@@ -1190,7 +1217,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L73",
       "id": "lib_utils_formatdatetime",
-      "community": 6,
+      "community": 5,
       "norm_label": "formatdatetime()"
     },
     {
@@ -1208,7 +1235,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L102",
       "id": "lib_utils_timeago",
-      "community": 6,
+      "community": 5,
       "norm_label": "timeago()"
     },
     {
@@ -1217,7 +1244,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L119",
       "id": "lib_utils_debounce",
-      "community": 6,
+      "community": 5,
       "norm_label": "debounce()"
     },
     {
@@ -1226,7 +1253,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L130",
       "id": "lib_utils_copytoclipboard",
-      "community": 6,
+      "community": 5,
       "norm_label": "copytoclipboard()"
     },
     {
@@ -1235,8 +1262,44 @@
       "source_file": "lib/utils.js",
       "source_location": "L155",
       "id": "lib_utils_callapi",
-      "community": 6,
+      "community": 5,
       "norm_label": "callapi()"
+    },
+    {
+      "label": "qr-parse.test.mjs",
+      "file_type": "code",
+      "source_file": "lib/qr-parse.test.mjs",
+      "source_location": "L1",
+      "id": "lib_qr_parse_test_mjs",
+      "community": 8,
+      "norm_label": "qr-parse.test.mjs"
+    },
+    {
+      "label": "qr-parse.mjs",
+      "file_type": "code",
+      "source_file": "lib/qr-parse.mjs",
+      "source_location": "L1",
+      "id": "lib_qr_parse_mjs",
+      "community": 8,
+      "norm_label": "qr-parse.mjs"
+    },
+    {
+      "label": "parseLocationFromQr()",
+      "file_type": "code",
+      "source_file": "lib/qr-parse.mjs",
+      "source_location": "L23",
+      "id": "lib_qr_parse_parselocationfromqr",
+      "community": 8,
+      "norm_label": "parselocationfromqr()"
+    },
+    {
+      "label": "normalize()",
+      "file_type": "code",
+      "source_file": "lib/qr-parse.mjs",
+      "source_location": "L51",
+      "id": "lib_qr_parse_normalize",
+      "community": 8,
+      "norm_label": "normalize()"
     },
     {
       "label": "NextConfig",
@@ -1247,7 +1310,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 17,
+      "community": 19,
       "norm_label": "nextconfig",
       "id": "next_config_mjs_nextconfig"
     },
@@ -1260,7 +1323,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 18,
+      "community": 20,
       "norm_label": "defineconfig",
       "id": "eslint_config_mjs_defineconfig"
     },
@@ -1273,7 +1336,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 9,
       "norm_label": "rootlayout",
       "id": "layout_rootlayout"
     },
@@ -1286,7 +1349,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 21,
       "norm_label": "metadata export",
       "id": "layout_metadata"
     },
@@ -1299,7 +1362,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 22,
       "norm_label": "viewport export",
       "id": "layout_viewport"
     },
@@ -1429,7 +1492,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 14,
       "norm_label": "loadlocation",
       "id": "scan_page_loadlocation"
     },
@@ -1442,7 +1505,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 12,
+      "community": 14,
       "norm_label": "handlelocationsubmit",
       "id": "scan_page_handlelocationsubmit"
     },
@@ -1468,7 +1531,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 23,
       "norm_label": "handleactionselect",
       "id": "scan_page_handleactionselect"
     },
@@ -1494,7 +1557,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 24,
       "norm_label": "updateqty",
       "id": "scan_page_updateqty"
     },
@@ -1507,7 +1570,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 23,
+      "community": 25,
       "norm_label": "setqty",
       "id": "scan_page_setqty"
     },
@@ -1533,7 +1596,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 24,
+      "community": 26,
       "norm_label": "handleprint",
       "id": "print_page_handletprint"
     },
@@ -1559,7 +1622,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 25,
+      "community": 27,
       "norm_label": "viewitem",
       "id": "search_page_viewitem"
     },
@@ -1572,7 +1635,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 28,
       "norm_label": "getstatusclass",
       "id": "search_page_getstatusclass"
     },
@@ -1611,7 +1674,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 29,
       "norm_label": "report_types",
       "id": "reports_page_report_types"
     },
@@ -1637,7 +1700,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 30,
       "norm_label": "navitems",
       "id": "navbar_navitems"
     },
@@ -1650,7 +1713,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 9,
       "norm_label": "loadingprovider",
       "id": "loadingoverlay_loadingprovider"
     },
@@ -1715,7 +1778,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 31,
       "norm_label": "handleclose",
       "id": "confirmmodal_handleclose"
     },
@@ -1728,7 +1791,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 9,
       "norm_label": "toastprovider",
       "id": "toast_toastprovider"
     },
@@ -1793,7 +1856,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 9,
       "norm_label": "provider nesting pattern (toast > loading > content + navbar)",
       "id": "provider_nesting_pattern"
     },
@@ -1949,7 +2012,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "get /api/reports handler",
       "id": "reports_get"
     },
@@ -2027,7 +2090,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "getreportdata",
       "id": "dashboard_service_getreportdata"
     },
@@ -2040,7 +2103,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "getfilteredtransactions",
       "id": "dashboard_service_getfilteredtransactions"
     },
@@ -2053,7 +2116,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "reportinventorymovement",
       "id": "dashboard_service_reportinventorymovement"
     },
@@ -2066,7 +2129,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "reportemployeeusage",
       "id": "dashboard_service_reportemployeeusage"
     },
@@ -2079,7 +2142,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "reportmonthlyconsumption",
       "id": "dashboard_service_reportmonthlyconsumption"
     },
@@ -2092,7 +2155,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "reportstockvalue",
       "id": "dashboard_service_reportstockvalue"
     },
@@ -2118,7 +2181,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "reportfastmoving",
       "id": "dashboard_service_reportfastmoving"
     },
@@ -2131,7 +2194,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 7,
+      "community": 6,
       "norm_label": "reportslowmoving",
       "id": "dashboard_service_reportslowmoving"
     },
@@ -2599,7 +2662,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 32,
       "norm_label": "escapehtml",
       "id": "utils_escapehtml"
     },
@@ -2612,7 +2675,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "formatdate",
       "id": "utils_formatdate"
     },
@@ -2625,7 +2688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 13,
+      "community": 15,
       "norm_label": "formatdatetime",
       "id": "utils_formatdatetime"
     },
@@ -2638,7 +2701,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 33,
       "norm_label": "formatcurrency",
       "id": "utils_formatcurrency"
     },
@@ -2651,7 +2714,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 34,
       "norm_label": "timeago",
       "id": "utils_timeago"
     },
@@ -2664,7 +2727,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 35,
       "norm_label": "debounce",
       "id": "utils_debounce"
     },
@@ -2677,7 +2740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 36,
       "norm_label": "copytoclipboard",
       "id": "utils_copytoclipboard"
     },
@@ -2690,7 +2753,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 37,
       "norm_label": "callapi",
       "id": "utils_callapi"
     },
@@ -2703,7 +2766,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 38,
       "norm_label": "jedlik motors inventory readme",
       "id": "readme"
     },
@@ -2716,7 +2779,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 39,
       "norm_label": "next.js agent rules",
       "id": "agents_md"
     },
@@ -2729,7 +2792,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 38,
+      "community": 40,
       "norm_label": "project claude.md",
       "id": "claude_md"
     },
@@ -2742,7 +2805,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 39,
+      "community": 41,
       "norm_label": "vercel text logo (file.svg)",
       "id": "file_svg"
     },
@@ -2755,7 +2818,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 40,
+      "community": 42,
       "norm_label": "vercel triangle logo (vercel.svg)",
       "id": "vercel_svg"
     },
@@ -2768,7 +2831,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 41,
+      "community": 43,
       "norm_label": "next.js document icon (next.svg)",
       "id": "next_svg"
     },
@@ -2781,7 +2844,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 44,
       "norm_label": "globe icon (globe.svg)",
       "id": "globe_svg"
     },
@@ -2794,7 +2857,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 43,
+      "community": 45,
       "norm_label": "window icon (window.svg)",
       "id": "window_svg"
     },
@@ -2820,7 +2883,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 16,
       "norm_label": "google sheets as database backend",
       "id": "google_sheets_backend"
     },
@@ -2872,7 +2935,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 16,
       "norm_label": "google sheets schema tabs",
       "id": "sheet_tab_schema"
     }
@@ -3726,6 +3789,26 @@
       "weight": 1.0,
       "source": "navbar_navbar",
       "target": "reports_page_reportspage"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/QrScanner.js",
+      "source_location": "L32",
+      "weight": 1.0,
+      "source": "components_qrscanner_js",
+      "target": "components_qrscanner_qrscanner",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/QrScanner.js",
+      "source_location": "L227",
+      "weight": 1.0,
+      "source": "components_qrscanner_js",
+      "target": "components_qrscanner_describecameraerror",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5474,6 +5557,59 @@
       "target": "lib_utils_formatdate"
     },
     {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/qr-parse.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_qr_parse_test_mjs",
+      "target": "lib_qr_parse_mjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/qr-parse.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_qr_parse_test_mjs",
+      "target": "lib_qr_parse_parselocationfromqr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/qr-parse.mjs",
+      "source_location": "L23",
+      "weight": 1.0,
+      "source": "lib_qr_parse_mjs",
+      "target": "lib_qr_parse_parselocationfromqr",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/qr-parse.mjs",
+      "source_location": "L51",
+      "weight": 1.0,
+      "source": "lib_qr_parse_mjs",
+      "target": "lib_qr_parse_normalize",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/qr-parse.mjs",
+      "source_location": "L34",
+      "weight": 1.0,
+      "source": "lib_qr_parse_parselocationfromqr",
+      "target": "lib_qr_parse_normalize",
+      "confidence_score": 1.0
+    },
+    {
       "relation": "calls",
       "confidence": "EXTRACTED",
       "confidence_score": 1.0,
@@ -6986,5 +7122,5 @@
       "source_file": "lib/qr-service.js"
     }
   ],
-  "built_at_commit": "fd02d8d1e0cd6493d74b14ce947e0a4e19f316cd"
+  "built_at_commit": "59dd84222d9a8e8034dbc42956b1df3aceb5119e"
 }

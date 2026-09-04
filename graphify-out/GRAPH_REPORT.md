@@ -1,16 +1,16 @@
 # Graph Report - jedlik-inventory  (2026-09-04)
 
 ## Corpus Check
-- 31 files · ~17,391 words
+- 34 files · ~19,050 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 251 nodes · 384 edges · 38 communities detected
-- Extraction: 77% EXTRACTED · 22% INFERRED · 0% AMBIGUOUS · INFERRED: 86 edges (avg confidence: 0.8)
+- 258 nodes · 391 edges · 39 communities detected
+- Extraction: 78% EXTRACTED · 22% INFERRED · 0% AMBIGUOUS · INFERRED: 86 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `fd02d8d1`
+- Built from commit: `59dd8422`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -22,12 +22,11 @@
 - [[_COMMUNITY_Community 4|Community 4]]
 - [[_COMMUNITY_Community 5|Community 5]]
 - [[_COMMUNITY_Community 6|Community 6]]
-- [[_COMMUNITY_Community 7|Community 7]]
-- [[_COMMUNITY_Community 12|Community 12]]
-- [[_COMMUNITY_Community 13|Community 13]]
+- [[_COMMUNITY_Community 8|Community 8]]
+- [[_COMMUNITY_Community 9|Community 9]]
 - [[_COMMUNITY_Community 14|Community 14]]
-- [[_COMMUNITY_Community 17|Community 17]]
-- [[_COMMUNITY_Community 18|Community 18]]
+- [[_COMMUNITY_Community 15|Community 15]]
+- [[_COMMUNITY_Community 16|Community 16]]
 - [[_COMMUNITY_Community 19|Community 19]]
 - [[_COMMUNITY_Community 20|Community 20]]
 - [[_COMMUNITY_Community 21|Community 21]]
@@ -53,6 +52,8 @@
 - [[_COMMUNITY_Community 41|Community 41]]
 - [[_COMMUNITY_Community 42|Community 42]]
 - [[_COMMUNITY_Community 43|Community 43]]
+- [[_COMMUNITY_Community 44|Community 44]]
+- [[_COMMUNITY_Community 45|Community 45]]
 
 ## God Nodes (most connected - your core abstractions)
 1. `readSheet()` - 26 edges
@@ -71,12 +72,12 @@
   app/scan/page.js → lib/utils.js
 - `SearchPage()` --calls--> `debounce()`  [INFERRED]
   app/search/page.js → lib/utils.js
-- `GET()` --calls--> `getAllLocations()`  [INFERRED]
-  app/api/locations/route.js → lib/sheets-service.js
 - `POST()` --calls--> `generateAllMissingQRCodes()`  [INFERRED]
   app/api/qr/route.js → lib/qr-service.js
 - `GET()` --calls--> `getDashboardData()`  [INFERRED]
   app/api/dashboard/route.js → lib/dashboard-service.js
+- `GET()` --calls--> `getRecentTransactions()`  [INFERRED]
+  app/api/transactions/route.js → lib/sheets-service.js
 
 ## Hyperedges (group relationships)
 - **Toast Notification Consumers** — page_dashboardpage, admin_page_adminpage, scan_page_scanpageinner, print_page_printpage, search_page_searchpage, reports_page_reportspage [EXTRACTED 1.00]
@@ -86,52 +87,52 @@
 - **Dashboard KPIs and report generators** — dashboard_service_getdashboarddata, dashboard_service_getreportdata, dashboard_service_getfilteredtransactions, dashboard_service_reportinventorymovement, dashboard_service_reportemployeeusage, dashboard_service_reportmonthlyconsumption, dashboard_service_reportstockvalue, dashboard_service_reportlowstock, dashboard_service_reportfastmoving, dashboard_service_reportslowmoving, sheets_service_getallinventory, sheets_service_getalllocations, sheets_service_getrecenttransactions, sheets_readsheet [EXTRACTED 0.95]
 - **QR code generation and storage flow** — qr_service_generateqrcodeurl, qr_service_getallqrdata, qr_service_generateallmissingqrcodes, qr_service_generateqrcodeforlocation, qr_service_getqrlabelsforprint, quickchart_io, sheets_readsheet, sheets_updatecell, locations_post [EXTRACTED 0.95]
 
-## Communities (44 total, 30 thin omitted)
+## Communities (46 total, 31 thin omitted)
 
 ### Community 0 - "Community 0"
 Cohesion: 0.06
 Nodes (56): GET /api/alerts handler, GET /api/dashboard handler, getDashboardData, reportLowStock, GET /api/employees handler, POST /api/employees handler, POST /api/employees/validate handler, Google Service Account authentication (+48 more)
 
 ### Community 1 - "Community 1"
-Cohesion: 0.1
-Nodes (33): GET(), POST(), GET(), POST(), appendRow(), appendRows(), batchUpdate(), columnToLetter() (+25 more)
+Cohesion: 0.09
+Nodes (41): GET(), POST(), GET(), POST(), generateAllMissingQRCodes(), generateQRCodeForLocation(), generateQRCodeUrl(), getAllQRData() (+33 more)
 
 ### Community 2 - "Community 2"
-Cohesion: 0.1
-Nodes (22): AdminPage(), loadAlerts, DashboardPage(), useLoading(), useToast(), ConfirmModal, Inventory Status Types (In Stock / Low Stock / Out of Stock), RootLayout (+14 more)
+Cohesion: 0.12
+Nodes (18): AdminPage(), loadAlerts, DashboardPage(), useLoading(), useToast(), ConfirmModal, Inventory Status Types (In Stock / Low Stock / Out of Stock), formatCurrency() (+10 more)
 
 ### Community 3 - "Community 3"
-Cohesion: 0.17
-Nodes (18): GET(), GET(), getDashboardData(), getFilteredTransactions(), getReportData(), reportEmployeeUsage(), reportFastMoving(), reportInventoryMovement() (+10 more)
+Cohesion: 0.14
+Nodes (20): GET(), GET(), getDashboardData(), getFilteredTransactions(), getReportData(), reportEmployeeUsage(), reportFastMoving(), reportInventoryMovement() (+12 more)
 
 ### Community 4 - "Community 4"
 Cohesion: 0.16
 Nodes (16): addEmployee, addItem, addLocation, generateMissingQR, loadEmployees, loadLocations, loadQRStatus, hideLoading (+8 more)
 
 ### Community 5 - "Community 5"
-Cohesion: 0.23
-Nodes (10): generateAllMissingQRCodes(), generateQRCodeForLocation(), generateQRCodeUrl(), getAllQRData(), getQRLabelsForPrint(), updateCell(), GET(), POST() (+2 more)
-
-### Community 6 - "Community 6"
 Cohesion: 0.25
 Nodes (4): debounce(), escapeHtml(), formatDate(), timeAgo()
 
-### Community 7 - "Community 7"
+### Community 6 - "Community 6"
 Cohesion: 0.33
 Nodes (9): getFilteredTransactions, getReportData, reportEmployeeUsage, reportFastMoving, reportInventoryMovement, reportMonthlyConsumption, reportSlowMoving, reportStockValue (+1 more)
+
+### Community 9 - "Community 9"
+Cohesion: 0.5
+Nodes (4): RootLayout, LoadingProvider, Provider Nesting Pattern (Toast > Loading > Content + Navbar), ToastProvider
 
 ## Knowledge Gaps
 - **61 isolated node(s):** `NextConfig`, `defineConfig`, `metadata export`, `viewport export`, `loadLocations` (+56 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **30 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **31 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `readSheet()` connect `Community 1` to `Community 3`, `Community 5`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **Why does `readSheet` connect `Community 0` to `Community 7`?**
-  _High betweenness centrality (0.044) - this node is a cross-community bridge._
+- **Why does `readSheet()` connect `Community 1` to `Community 3`?**
+  _High betweenness centrality (0.045) - this node is a cross-community bridge._
+- **Why does `readSheet` connect `Community 0` to `Community 6`?**
+  _High betweenness centrality (0.042) - this node is a cross-community bridge._
 - **Are the 18 inferred relationships involving `readSheet()` (e.g. with `getDashboardData()` and `getFilteredTransactions()`) actually correct?**
   _`readSheet()` has 18 INFERRED edges - model-reasoned connections that need verification._
 - **Are the 8 inferred relationships involving `getAllInventory()` (e.g. with `GET()` and `getAlerts()`) actually correct?**

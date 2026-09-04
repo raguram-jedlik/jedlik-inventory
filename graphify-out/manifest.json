@@ -20,8 +20,8 @@
     "hash": "25787c835096b78ea27ace8c5dc00cae"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/scan/page.js": {
-    "mtime": 1788503720.3356407,
-    "hash": "4c4af0032bb5897e76203e37145cd4ec"
+    "mtime": 1788506752.0583987,
+    "hash": "78056c4f85bb57983d01cd2aecc9983c"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/print/page.js": {
     "mtime": 1788501988.8694413,
@@ -75,6 +75,10 @@
     "mtime": 1786445616.5443826,
     "hash": "ecca88be7c679793c2be40019e3c8f85"
   },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/components/QrScanner.js": {
+    "mtime": 1788506353.932836,
+    "hash": "06ead6e7c8fa517caef4ac616801297c"
+  },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/components/Navbar.js": {
     "mtime": 1786440494.1626148,
     "hash": "ee3827e6e5bb1af6d9958c03dfee708d"
@@ -122,6 +126,14 @@
   "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/utils.js": {
     "mtime": 1788503770.9447935,
     "hash": "d984126fa4bcd4a2237910b6d75cec08"
+  },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/qr-parse.test.mjs": {
+    "mtime": 1788505337.6061554,
+    "hash": "488c9532260e55284a1d479a14cb205a"
+  },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/qr-parse.mjs": {
+    "mtime": 1788505371.7323773,
+    "hash": "404258da867864edf6cced294ba06f8c"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/README.md": {
     "mtime": 1786443316.0421782,
