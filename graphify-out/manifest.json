@@ -8,28 +8,28 @@
     "hash": "bcb00e240634dd9448e57386fdff1902"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/layout.js": {
-    "mtime": 1786083465.690744,
-    "hash": "e6b62bd3d34ae68fca384dc762deda1c"
+    "mtime": 1786446455.7957377,
+    "hash": "f0565b3026a397e65a8fc618f41d73c3"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/page.js": {
-    "mtime": 1786083270.952377,
-    "hash": "6505ed1321d374dd24a689a928487f35"
+    "mtime": 1786444200.056965,
+    "hash": "d2607fe2fd3e7286ad4f20a0b161c1e8"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/admin/page.js": {
-    "mtime": 1786083421.1418798,
-    "hash": "6184b4bacc4160c20c88e4556b5679ce"
+    "mtime": 1786444755.4843209,
+    "hash": "25787c835096b78ea27ace8c5dc00cae"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/scan/page.js": {
-    "mtime": 1786083273.0811756,
-    "hash": "90774e0911752031ca5088983cc77571"
+    "mtime": 1788503720.3356407,
+    "hash": "4c4af0032bb5897e76203e37145cd4ec"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/print/page.js": {
-    "mtime": 1786083423.2168539,
-    "hash": "8bb9bcb872dd0493bb2c313b879ecbc4"
+    "mtime": 1788501988.8694413,
+    "hash": "95d5db05af4b19cf666e786167a70854"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/search/page.js": {
-    "mtime": 1786083329.298577,
-    "hash": "44de73575cffdf83c8fc17fd7f36c901"
+    "mtime": 1786444200.072641,
+    "hash": "532d7c239ee99c78bc024b5261466f52"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/api/qr/route.js": {
     "mtime": 1786083003.1419146,
@@ -72,16 +72,20 @@
     "hash": "fd8caa7ace34dbf91b0e30e9b5bbf624"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/reports/page.js": {
-    "mtime": 1786083331.3788846,
-    "hash": "ea7ee9b97f9c68809004f70ccb7f8c59"
+    "mtime": 1786445616.5443826,
+    "hash": "ecca88be7c679793c2be40019e3c8f85"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/components/Navbar.js": {
-    "mtime": 1786083153.0422158,
-    "hash": "7ef4037b4fb89efba2e932d8899f382a"
+    "mtime": 1786440494.1626148,
+    "hash": "ee3827e6e5bb1af6d9958c03dfee708d"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/components/LoadingOverlay.js": {
     "mtime": 1786083160.978427,
     "hash": "6773f3f1e9dc0932272844a1c36b1c9c"
+  },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/components/Brand.js": {
+    "mtime": 1786445905.5881722,
+    "hash": "c5bc00b8c58bee26af23052bde739c2c"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/components/ConfirmModal.js": {
     "mtime": 1786083163.035214,
@@ -100,8 +104,8 @@
     "hash": "2397d323eab20791de4d3387aeb2add3"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/qr-service.js": {
-    "mtime": 1786082957.7731612,
-    "hash": "4a29139db5fe81912358c7265e9f4edf"
+    "mtime": 1788501925.0041409,
+    "hash": "30d2be289c1114af11548501ace9bb65"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/sheets.js": {
     "mtime": 1786082854.017212,
@@ -116,12 +120,12 @@
     "hash": "06f96ceadcf36ecbfc57323d0bc38bc7"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/utils.js": {
-    "mtime": 1786083189.245364,
-    "hash": "12a53c9314258f00f14b34999453f454"
+    "mtime": 1788503770.9447935,
+    "hash": "d984126fa4bcd4a2237910b6d75cec08"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/README.md": {
-    "mtime": 1786083499.65754,
-    "hash": "236ac4ce1d10155a1726f6f35c8bab9a"
+    "mtime": 1786443316.0421782,
+    "hash": "78c3620ddcab3c52666a9d81ffc7e8ad"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/AGENTS.md": {
     "mtime": 1786082762.6319287,
@@ -131,9 +135,21 @@
     "mtime": 1786082762.6319895,
     "hash": "5c27369b226fcf2be8a6cfe52224e767"
   },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/graphify-out/memory/query_20260811_085554_why_does_readsheet___bridge_api_routes_and_sheets.md": {
+    "mtime": 1786438554.579344,
+    "hash": "e30e1f55cc1c74b39d75a0f3f8619dc3"
+  },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/legal/Jedlik-Motors-Board-Resolution-SBI-Startup-Branch-Account-Closure.pdf": {
+    "mtime": 1786517112.9103923,
+    "hash": "5d707b0ef34040eb388dc1654e87560d"
+  },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/public/file.svg": {
     "mtime": 1786082746.5636039,
     "hash": "d09f95206c3fa0bb9bd9fefabfd0ea71"
+  },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/public/jedlik-logo.png": {
+    "mtime": 1786445891.3713703,
+    "hash": "eb731b3b6519df01e72f89bb65c595b4"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/public/vercel.svg": {
     "mtime": 1786082746.5640354,
