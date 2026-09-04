@@ -6,7 +6,9 @@ import { useToast } from '@/components/Toast';
 import { useLoading } from '@/components/LoadingOverlay';
 import { PageBrand } from '@/components/Navbar';
 import ConfirmModal from '@/components/ConfirmModal';
+import QrScanner from '@/components/QrScanner';
 import { callApi, escapeHtml } from '@/lib/utils';
+import { parseLocationFromQr } from '@/lib/qr-parse.mjs';
 
 const STEPS = [
   { key: 'location', label: 'Location', n: 1 },
@@ -29,6 +31,7 @@ function ScanPageInner() {
   const [quantities, setQuantities] = useState({});
   const [remarks, setRemarks] = useState({});
   const [showConfirm, setShowConfirm] = useState(false);
+  const [showScanner, setShowScanner] = useState(false);
   const [step, setStep] = useState('location');
 
   const currentStepIndex = STEPS.findIndex((s) => s.key === step);
@@ -63,6 +66,24 @@ function ScanPageInner() {
       return;
     }
     await loadLocation(locationId.trim().toUpperCase());
+  }
+
+  /**
+   * Handles a decoded QR payload. Returning false tells QrScanner to keep the
+   * camera running, which is what we want for a QR that is not one of ours —
+   * closing on every stray code would be maddening in a workshop.
+   */
+  function handleQrDetected(text) {
+    const scannedId = parseLocationFromQr(text);
+    if (!scannedId) {
+      showToast('That QR code is not a location code. Try another.', 'warning');
+      return false;
+    }
+
+    setShowScanner(false);
+    setLocationId(scannedId);
+    loadLocation(scannedId);
+    return true;
   }
 
   async function handleValidateEmployee() {
@@ -239,6 +260,15 @@ function ScanPageInner() {
           <div className="section-header">
             <h2 className="section-title">📍 Location</h2>
           </div>
+          <button
+            className="btn btn-primary btn-block btn-lg"
+            onClick={() => setShowScanner(true)}
+          >
+            📷 Scan QR Code
+          </button>
+
+          <div className="or-divider"><span>or type it</span></div>
+
           <div className="form-group">
             <label className="form-label" htmlFor="loc-input">
               Location ID
@@ -251,15 +281,14 @@ function ScanPageInner() {
               value={locationId}
               onChange={(e) => setLocationId(e.target.value.toUpperCase())}
               onKeyDown={(e) => e.key === 'Enter' && handleLocationSubmit()}
-              autoFocus
               inputMode="text"
               autoCapitalize="characters"
             />
             <p className="form-hint">
-              Scan the QR on the box / drawer / shelf — or type the code printed on it.
+              Type the code printed on the box / drawer / shelf.
             </p>
           </div>
-          <button className="btn btn-primary btn-block btn-lg" onClick={handleLocationSubmit}>
+          <button className="btn btn-secondary btn-block" onClick={handleLocationSubmit}>
             Load Location →
           </button>
         </div>
@@ -502,6 +531,14 @@ function ScanPageInner() {
             ← Change action
           </button>
         </>
+      )}
+
+      {/* QR scanner overlay */}
+      {showScanner && (
+        <QrScanner
+          onDetected={handleQrDetected}
+          onClose={() => setShowScanner(false)}
+        />
       )}
 
       {/* Confirmation Modal */}

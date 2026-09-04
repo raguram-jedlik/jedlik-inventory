@@ -1392,6 +1392,95 @@ td.mono { font-family: var(--font-mono); font-size: 0.8rem; }
 }
 
 
+/* ── QR Scanner ────────────────────────────────────────── */
+.or-divider {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  margin: var(--space-lg) 0;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.or-divider::before,
+.or-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: var(--border-medium);
+}
+
+.qr-scanner-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  background: #000;
+  display: flex;
+  flex-direction: column;
+  /* Keeps the cancel button clear of the iOS home indicator. */
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.qr-scanner-stage {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.qr-scanner-video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Aiming guide. Purely decorative — jsQR reads the whole frame. */
+.qr-scanner-reticle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: min(62vw, 260px);
+  aspect-ratio: 1;
+  border: 3px solid rgba(255, 255, 255, 0.9);
+  border-radius: var(--radius-md);
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.45);
+}
+
+.qr-scanner-hint {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: var(--space-lg);
+  margin: 0;
+  padding: 0 var(--space-lg);
+  text-align: center;
+  color: #fff;
+  font-size: 0.9rem;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.qr-scanner-error {
+  padding: var(--space-lg);
+  text-align: center;
+  color: #fff;
+  max-width: 420px;
+}
+
+.qr-scanner-error p {
+  margin: var(--space-sm) 0 0;
+  line-height: 1.5;
+}
+
+.qr-scanner-actions {
+  padding: var(--space-md);
+  background: #000;
+}
+
+
 /* ── Print Labels ──────────────────────────────────────── */
 .print-grid {
   display: grid;
