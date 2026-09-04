@@ -1403,34 +1403,29 @@ td.mono { font-family: var(--font-mono); font-size: 0.8rem; }
   display: block;
 }
 
+.qr-label .label-name {
+  font-size: 1.6rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: #0a0a0a;
+  margin-bottom: var(--space-sm);
+  word-break: break-word;
+}
+
 .qr-label .label-id {
   font-family: var(--font-mono);
-  font-size: 1.1rem;
-  font-weight: 800;
-  color: #0a0a0a;
-}
-
-.qr-label .label-name {
-  font-size: 0.75rem;
+  font-size: 0.9rem;
+  font-weight: 700;
   color: #444;
-  margin-top: 2px;
-}
-
-.qr-label .label-type {
-  font-size: 0.65rem;
-  color: #888;
-  text-transform: uppercase;
-  margin-top: 4px;
+  margin-top: var(--space-xs, 4px);
   letter-spacing: 0.5px;
 }
 
-.qr-label .label-brand {
-  display: block;
-  margin: var(--space-sm) auto 0;
-  width: 80px;
-  height: auto;
-  filter: invert(1);
-}
+/* Box locations get a 1.5 x 1.5 cm sticker. On screen this is only an
+   approximate preview — the exact physical size is set in @media print. */
+.qr-label-box .label-name { font-size: 1.1rem; }
+.qr-label-box .label-id { font-size: 0.75rem; }
+.qr-label-box img { width: 110px; height: 110px; }
 
 
 /* ── Print Styles ──────────────────────────────────────── */
@@ -1451,19 +1446,76 @@ td.mono { font-family: var(--font-mono); font-size: 0.8rem; }
     padding-bottom: 0;
   }
 
+  @page { margin: 8mm; }
+
+  /* Flex (not grid) so the 15mm Box stickers pack tightly against each other
+     instead of each occupying a full-width grid column. */
   .print-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 2mm;
   }
 
   .qr-label {
+    box-sizing: border-box;
+    width: 5.5cm;
     border: 1px solid #ccc;
     padding: 12px;
     page-break-inside: avoid;
+    break-inside: avoid;
     border-radius: 4px;
   }
 
   .qr-label img { width: 120px; height: 120px; }
+  .qr-label .label-name { font-size: 1.35rem; }
+
+  /* ── Box stickers: exact 1.5 x 1.5 cm ──────────────────
+     Height budget (border-box, 15mm total):
+       padding 0.3 + name 2.6 + QR 8.8 + id 2.1 + padding 0.3 = 14.1mm
+     Requires printing at 100% scale — any "fit to page" shrinks these. */
+  .qr-label-box {
+    width: 1.5cm;
+    height: 1.5cm;
+    padding: 0.3mm;
+    border: 0.2mm solid #ccc;
+    border-radius: 0.4mm;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .qr-label-box .label-name {
+    font-size: 2.2mm;
+    line-height: 2.6mm;
+    font-weight: 800;
+    margin: 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .qr-label-box img {
+    width: 8.8mm;
+    height: 8.8mm;
+    margin: 0;
+  }
+
+  .qr-label-box .label-id {
+    font-size: 1.7mm;
+    line-height: 2.1mm;
+    font-weight: 700;
+    color: #000;
+    margin: 0;
+    letter-spacing: 0;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
 }
 
 

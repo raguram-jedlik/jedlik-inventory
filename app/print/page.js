@@ -4,7 +4,12 @@ import { useEffect, useState } from 'react';
 import { useToast } from '@/components/Toast';
 import { useLoading } from '@/components/LoadingOverlay';
 import { PageBrand } from '@/components/Navbar';
-import { callApi } from '@/lib/utils';
+import { callApi, highResQrUrl } from '@/lib/utils';
+
+/** Box locations print on 1.5 x 1.5 cm stickers; every other type uses the default size. */
+function isBoxLabel(label) {
+  return String(label.storageType || '').trim().toLowerCase() === 'box';
+}
 
 export default function PrintPage() {
   const showToast = useToast();
@@ -50,9 +55,15 @@ export default function PrintPage() {
     window.print();
   }
 
-  const visibleLabels = selectedLabels.size > 0
-    ? labels.filter((l) => selectedLabels.has(l.locationId))
-    : labels;
+  // Group the 15mm Box stickers together so a printed sheet cuts in clean runs
+  // instead of interleaving two sticker sizes down the page.
+  const visibleLabels = (
+    selectedLabels.size > 0
+      ? labels.filter((l) => selectedLabels.has(l.locationId))
+      : labels
+  )
+    .slice()
+    .sort((a, b) => Number(isBoxLabel(b)) - Number(isBoxLabel(a)));
 
   return (
     <>
@@ -75,6 +86,11 @@ export default function PrintPage() {
             {labels.length} labels available
           </span>
         </div>
+        <p className="page-subtitle" style={{ marginTop: 'var(--space-sm)' }}>
+          Box locations print at 1.5 × 1.5 cm; all other types use the default size.
+          Set your print dialog to <strong>100% scale</strong> (not “Fit to page”) or the
+          sticker sizes will be wrong.
+        </p>
       </div>
 
       {/* Labels Grid */}
@@ -96,16 +112,14 @@ export default function PrintPage() {
           {visibleLabels.map((label) => (
             <div
               key={label.locationId}
-              className={`qr-label ${selectedLabels.has(label.locationId) ? 'selected' : ''}`}
+              className={`qr-label ${isBoxLabel(label) ? 'qr-label-box' : ''} ${selectedLabels.has(label.locationId) ? 'selected' : ''}`}
               onClick={() => toggleLabel(label.locationId)}
             >
+              <div className="label-name">{label.locationName || label.locationId}</div>
               {label.qrCodeUrl && (
-                <img src={label.qrCodeUrl} alt={`QR: ${label.locationId}`} loading="lazy" />
+                <img src={highResQrUrl(label.qrCodeUrl)} alt={`QR: ${label.locationId}`} loading="lazy" />
               )}
               <div className="label-id">{label.locationId}</div>
-              <div className="label-name">{label.locationName || ''}</div>
-              <div className="label-type">{label.storageType || ''}</div>
-              <img src="/jedlik-logo.png" alt="Jedlik Motors" className="label-brand" />
             </div>
           ))}
         </div>
