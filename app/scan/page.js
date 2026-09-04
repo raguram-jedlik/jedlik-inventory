@@ -6,7 +6,7 @@ import { useToast } from '@/components/Toast';
 import { useLoading } from '@/components/LoadingOverlay';
 import { PageBrand } from '@/components/Navbar';
 import ConfirmModal from '@/components/ConfirmModal';
-import { callApi } from '@/lib/utils';
+import { callApi, escapeHtml } from '@/lib/utils';
 
 const STEPS = [
   { key: 'location', label: 'Location', n: 1 },
@@ -189,14 +189,22 @@ function ScanPageInner() {
   }
 
   const selectedItems = getSelectedItems();
+  // Built as an HTML string for ConfirmModal's dangerouslySetInnerHTML, so every
+  // sheet-sourced value must be escaped before it lands in the markup.
   const confirmBody = selectedItems
-    .map(
-      (item) =>
-        `<div style="display:flex;justify-content:space-between;padding:8px 0;border-bottom:1px solid #1f1f1f;">
-          <span style="color:#e8e8e8;">${item['Component Name']}</span>
-          <strong style="color:#fff;font-family:'JetBrains Mono',monospace;">${quantities[item['Item ID']]} ${item['Unit'] || 'pcs'}</strong>
-        </div>`
-    )
+    .map((item) => {
+      const partNumber = item['Part Number']
+        ? `<div style="color:#8a8a8a;font-family:'JetBrains Mono',monospace;font-size:0.75rem;margin-top:2px;">PN: ${escapeHtml(item['Part Number'])}</div>`
+        : `<div style="color:#5a5a5a;font-size:0.75rem;margin-top:2px;">No part number</div>`;
+
+      return `<div style="display:flex;justify-content:space-between;align-items:flex-start;gap:12px;padding:8px 0;border-bottom:1px solid #1f1f1f;">
+          <div style="min-width:0;">
+            <div style="color:#e8e8e8;">${escapeHtml(item['Component Name'])}</div>
+            ${partNumber}
+          </div>
+          <strong style="color:#fff;font-family:'JetBrains Mono',monospace;white-space:nowrap;">${quantities[item['Item ID']]} ${escapeHtml(item['Unit'] || 'pcs')}</strong>
+        </div>`;
+    })
     .join('');
 
   return (
@@ -418,6 +426,11 @@ function ScanPageInner() {
                       <div className="scan-item-header">
                         <div style={{ flex: 1, minWidth: 0 }}>
                           <div className="scan-item-name">{item['Component Name']}</div>
+                          {item['Part Number'] ? (
+                            <div className="scan-item-pn">PN: {item['Part Number']}</div>
+                          ) : (
+                            <div className="scan-item-pn empty">No part number</div>
+                          )}
                           <div className="scan-item-id">{item['Item ID']}</div>
                           <div className="scan-item-available">
                             {available} {item['Unit'] || 'pcs'} available
@@ -497,8 +510,8 @@ function ScanPageInner() {
           title={`Confirm ${action}`}
           body={`
             <div style="margin-bottom:14px;">
-              <strong style="color:#fff;">Location:</strong> ${locationId}<br/>
-              <strong style="color:#fff;">Employee:</strong> ${empValidation?.name} (${empCode})
+              <strong style="color:#fff;">Location:</strong> ${escapeHtml(locationId)}<br/>
+              <strong style="color:#fff;">Employee:</strong> ${escapeHtml(empValidation?.name)} (${escapeHtml(empCode)})
             </div>
             <div style="border-top:1px solid #1f1f1f;padding-top:12px;">
               ${confirmBody}
