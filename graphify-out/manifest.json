@@ -59,6 +59,10 @@
     "mtime": 1786082985.517454,
     "hash": "8d6929698849186707e563617a53218e"
   },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/app/api/returns/route.js": {
+    "mtime": 1789817848.7962255,
+    "hash": "f78ca648606ea0c51d3585ac48a6121d"
+  },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/api/reports/route.js": {
     "mtime": 1786082999.0602026,
     "hash": "2050331af2bc3b71c6331f230b1eca30"
@@ -71,6 +75,10 @@
     "mtime": 1786082992.9518678,
     "hash": "fd8caa7ace34dbf91b0e30e9b5bbf624"
   },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/app/returns/page.js": {
+    "mtime": 1789817858.9449394,
+    "hash": "4fc50be03767cfcd2f8d66eec38101c3"
+  },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/app/reports/page.js": {
     "mtime": 1786445616.5443826,
     "hash": "ecca88be7c679793c2be40019e3c8f85"
@@ -80,8 +88,8 @@
     "hash": "06ead6e7c8fa517caef4ac616801297c"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/components/Navbar.js": {
-    "mtime": 1786440494.1626148,
-    "hash": "ee3827e6e5bb1af6d9958c03dfee708d"
+    "mtime": 1789817865.0175123,
+    "hash": "c1591af978ced387d848ddb1e99011e9"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/components/LoadingOverlay.js": {
     "mtime": 1786083160.978427,
@@ -107,6 +115,14 @@
     "mtime": 1786082951.035964,
     "hash": "2397d323eab20791de4d3387aeb2add3"
   },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/returns-service.mjs": {
+    "mtime": 1789817825.3354652,
+    "hash": "590e29fda21249c9dcf3519128b67d14"
+  },
+  "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/returns-service.test.mjs": {
+    "mtime": 1789817816.790455,
+    "hash": "45bafafc04193a392949e42e8684b58e"
+  },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/qr-service.js": {
     "mtime": 1788501925.0041409,
     "hash": "30d2be289c1114af11548501ace9bb65"
@@ -116,12 +132,12 @@
     "hash": "e3cd70897887342c09975b421e3bb17f"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/transaction-service.js": {
-    "mtime": 1786082884.413718,
-    "hash": "47a7af927c012408edecb7305f3ec935"
+    "mtime": 1789817839.587361,
+    "hash": "b037d9c1067d7a461711cc9486118c9f"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/sheets-service.js": {
-    "mtime": 1786082882.3423927,
-    "hash": "06f96ceadcf36ecbfc57323d0bc38bc7"
+    "mtime": 1789817831.1284182,
+    "hash": "b57c75bbb3e9900b1ccf4fcda29318fe"
   },
   "/Users/raguram/Documents/GitHub/jedlik-inventory/lib/utils.js": {
     "mtime": 1788503770.9447935,

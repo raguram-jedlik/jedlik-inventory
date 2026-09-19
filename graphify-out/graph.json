@@ -119,7 +119,7 @@
       "source_file": "next.config.mjs",
       "source_location": "L1",
       "id": "next_config_mjs",
-      "community": 17,
+      "community": 18,
       "norm_label": "next.config.mjs"
     },
     {
@@ -128,7 +128,7 @@
       "source_file": "eslint.config.mjs",
       "source_location": "L1",
       "id": "eslint_config_mjs",
-      "community": 18,
+      "community": 19,
       "norm_label": "eslint.config.mjs"
     },
     {
@@ -137,7 +137,7 @@
       "source_file": "app/layout.js",
       "source_location": "L1",
       "id": "app_layout_js",
-      "community": 11,
+      "community": 12,
       "norm_label": "layout.js"
     },
     {
@@ -146,7 +146,7 @@
       "source_file": "app/layout.js",
       "source_location": "L34",
       "id": "app_layout_rootlayout",
-      "community": 11,
+      "community": 12,
       "norm_label": "rootlayout()"
     },
     {
@@ -155,7 +155,7 @@
       "source_file": "app/page.js",
       "source_location": "L1",
       "id": "app_page_js",
-      "community": 2,
+      "community": 1,
       "norm_label": "page.js"
     },
     {
@@ -164,7 +164,7 @@
       "source_file": "app/page.js",
       "source_location": "L8",
       "id": "app_page_dashboardpage",
-      "community": 2,
+      "community": 1,
       "norm_label": "dashboardpage()"
     },
     {
@@ -173,7 +173,7 @@
       "source_file": "app/admin/page.js",
       "source_location": "L1",
       "id": "app_admin_page_js",
-      "community": 2,
+      "community": 1,
       "norm_label": "page.js"
     },
     {
@@ -182,7 +182,7 @@
       "source_file": "app/admin/page.js",
       "source_location": "L10",
       "id": "admin_page_adminpage",
-      "community": 2,
+      "community": 1,
       "norm_label": "adminpage()"
     },
     {
@@ -191,7 +191,7 @@
       "source_file": "app/admin/page.js",
       "source_location": "L538",
       "id": "admin_page_alertlist",
-      "community": 2,
+      "community": 1,
       "norm_label": "alertlist()"
     },
     {
@@ -200,7 +200,7 @@
       "source_file": "app/scan/page.js",
       "source_location": "L1",
       "id": "app_scan_page_js",
-      "community": 2,
+      "community": 1,
       "norm_label": "page.js"
     },
     {
@@ -209,7 +209,7 @@
       "source_file": "app/scan/page.js",
       "source_location": "L20",
       "id": "scan_page_scanpageinner",
-      "community": 2,
+      "community": 1,
       "norm_label": "scanpageinner()"
     },
     {
@@ -218,7 +218,7 @@
       "source_file": "app/scan/page.js",
       "source_location": "L567",
       "id": "scan_page_scanpage",
-      "community": 2,
+      "community": 1,
       "norm_label": "scanpage()"
     },
     {
@@ -227,7 +227,7 @@
       "source_file": "app/print/page.js",
       "source_location": "L1",
       "id": "app_print_page_js",
-      "community": 2,
+      "community": 1,
       "norm_label": "page.js"
     },
     {
@@ -236,7 +236,7 @@
       "source_file": "app/print/page.js",
       "source_location": "L10",
       "id": "print_page_isboxlabel",
-      "community": 2,
+      "community": 1,
       "norm_label": "isboxlabel()"
     },
     {
@@ -245,7 +245,7 @@
       "source_file": "app/print/page.js",
       "source_location": "L14",
       "id": "print_page_printpage",
-      "community": 2,
+      "community": 1,
       "norm_label": "printpage()"
     },
     {
@@ -254,7 +254,7 @@
       "source_file": "app/search/page.js",
       "source_location": "L1",
       "id": "app_search_page_js",
-      "community": 2,
+      "community": 1,
       "norm_label": "page.js"
     },
     {
@@ -263,7 +263,7 @@
       "source_file": "app/search/page.js",
       "source_location": "L8",
       "id": "search_page_searchpage",
-      "community": 2,
+      "community": 1,
       "norm_label": "searchpage()"
     },
     {
@@ -272,7 +272,7 @@
       "source_file": "app/api/qr/route.js",
       "source_location": "L1",
       "id": "app_api_qr_route_js",
-      "community": 1,
+      "community": 6,
       "norm_label": "route.js"
     },
     {
@@ -281,7 +281,7 @@
       "source_file": "app/api/qr/route.js",
       "source_location": "L4",
       "id": "qr_route_get",
-      "community": 1,
+      "community": 6,
       "norm_label": "get()"
     },
     {
@@ -290,7 +290,7 @@
       "source_file": "app/api/qr/route.js",
       "source_location": "L14",
       "id": "qr_route_post",
-      "community": 1,
+      "community": 6,
       "norm_label": "post()"
     },
     {
@@ -299,7 +299,7 @@
       "source_file": "app/api/alerts/route.js",
       "source_location": "L1",
       "id": "app_api_alerts_route_js",
-      "community": 3,
+      "community": 4,
       "norm_label": "route.js"
     },
     {
@@ -308,7 +308,7 @@
       "source_file": "app/api/alerts/route.js",
       "source_location": "L4",
       "id": "alerts_route_get",
-      "community": 3,
+      "community": 4,
       "norm_label": "get()"
     },
     {
@@ -317,7 +317,7 @@
       "source_file": "app/api/dashboard/route.js",
       "source_location": "L1",
       "id": "app_api_dashboard_route_js",
-      "community": 3,
+      "community": 4,
       "norm_label": "route.js"
     },
     {
@@ -326,7 +326,7 @@
       "source_file": "app/api/dashboard/route.js",
       "source_location": "L4",
       "id": "dashboard_route_get",
-      "community": 3,
+      "community": 4,
       "norm_label": "get()"
     },
     {
@@ -335,7 +335,7 @@
       "source_file": "app/api/transactions/route.js",
       "source_location": "L1",
       "id": "app_api_transactions_route_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "route.js"
     },
     {
@@ -344,7 +344,7 @@
       "source_file": "app/api/transactions/route.js",
       "source_location": "L5",
       "id": "transactions_route_get",
-      "community": 1,
+      "community": 0,
       "norm_label": "get()"
     },
     {
@@ -353,7 +353,7 @@
       "source_file": "app/api/transactions/route.js",
       "source_location": "L30",
       "id": "transactions_route_post",
-      "community": 1,
+      "community": 0,
       "norm_label": "post()"
     },
     {
@@ -362,7 +362,7 @@
       "source_file": "app/api/locations/route.js",
       "source_location": "L1",
       "id": "app_api_locations_route_js",
-      "community": 3,
+      "community": 6,
       "norm_label": "route.js"
     },
     {
@@ -371,7 +371,7 @@
       "source_file": "app/api/locations/route.js",
       "source_location": "L5",
       "id": "locations_route_get",
-      "community": 3,
+      "community": 6,
       "norm_label": "get()"
     },
     {
@@ -380,7 +380,7 @@
       "source_file": "app/api/locations/route.js",
       "source_location": "L15",
       "id": "locations_route_post",
-      "community": 3,
+      "community": 6,
       "norm_label": "post()"
     },
     {
@@ -389,7 +389,7 @@
       "source_file": "app/api/inventory/route.js",
       "source_location": "L1",
       "id": "app_api_inventory_route_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "route.js"
     },
     {
@@ -398,7 +398,7 @@
       "source_file": "app/api/inventory/route.js",
       "source_location": "L4",
       "id": "inventory_route_get",
-      "community": 1,
+      "community": 0,
       "norm_label": "get()"
     },
     {
@@ -407,7 +407,7 @@
       "source_file": "app/api/inventory/route.js",
       "source_location": "L22",
       "id": "inventory_route_post",
-      "community": 1,
+      "community": 0,
       "norm_label": "post()"
     },
     {
@@ -416,7 +416,7 @@
       "source_file": "app/api/inventory/search/route.js",
       "source_location": "L1",
       "id": "app_api_inventory_search_route_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "route.js"
     },
     {
@@ -425,7 +425,25 @@
       "source_file": "app/api/inventory/search/route.js",
       "source_location": "L4",
       "id": "search_route_get",
-      "community": 1,
+      "community": 0,
+      "norm_label": "get()"
+    },
+    {
+      "label": "route.js",
+      "file_type": "code",
+      "source_file": "app/api/returns/route.js",
+      "source_location": "L1",
+      "id": "app_api_returns_route_js",
+      "community": 0,
+      "norm_label": "route.js"
+    },
+    {
+      "label": "GET()",
+      "file_type": "code",
+      "source_file": "app/api/returns/route.js",
+      "source_location": "L15",
+      "id": "returns_route_get",
+      "community": 0,
       "norm_label": "get()"
     },
     {
@@ -434,7 +452,7 @@
       "source_file": "app/api/reports/route.js",
       "source_location": "L1",
       "id": "app_api_reports_route_js",
-      "community": 3,
+      "community": 4,
       "norm_label": "route.js"
     },
     {
@@ -443,7 +461,7 @@
       "source_file": "app/api/reports/route.js",
       "source_location": "L4",
       "id": "reports_route_get",
-      "community": 3,
+      "community": 4,
       "norm_label": "get()"
     },
     {
@@ -452,7 +470,7 @@
       "source_file": "app/api/employees/route.js",
       "source_location": "L1",
       "id": "app_api_employees_route_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "route.js"
     },
     {
@@ -461,7 +479,7 @@
       "source_file": "app/api/employees/route.js",
       "source_location": "L4",
       "id": "employees_route_get",
-      "community": 1,
+      "community": 0,
       "norm_label": "get()"
     },
     {
@@ -470,7 +488,7 @@
       "source_file": "app/api/employees/route.js",
       "source_location": "L14",
       "id": "employees_route_post",
-      "community": 1,
+      "community": 0,
       "norm_label": "post()"
     },
     {
@@ -479,7 +497,7 @@
       "source_file": "app/api/employees/validate/route.js",
       "source_location": "L1",
       "id": "app_api_employees_validate_route_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "route.js"
     },
     {
@@ -488,8 +506,26 @@
       "source_file": "app/api/employees/validate/route.js",
       "source_location": "L4",
       "id": "validate_route_post",
-      "community": 1,
+      "community": 0,
       "norm_label": "post()"
+    },
+    {
+      "label": "page.js",
+      "file_type": "code",
+      "source_file": "app/returns/page.js",
+      "source_location": "L1",
+      "id": "app_returns_page_js",
+      "community": 1,
+      "norm_label": "page.js"
+    },
+    {
+      "label": "ReturnsPage()",
+      "file_type": "code",
+      "source_file": "app/returns/page.js",
+      "source_location": "L13",
+      "id": "returns_page_returnspage",
+      "community": 1,
+      "norm_label": "returnspage()"
     },
     {
       "label": "page.js",
@@ -497,7 +533,7 @@
       "source_file": "app/reports/page.js",
       "source_location": "L1",
       "id": "app_reports_page_js",
-      "community": 2,
+      "community": 1,
       "norm_label": "page.js"
     },
     {
@@ -506,7 +542,7 @@
       "source_file": "app/reports/page.js",
       "source_location": "L19",
       "id": "reports_page_reportspage",
-      "community": 2,
+      "community": 1,
       "norm_label": "reportspage()"
     },
     {
@@ -515,7 +551,7 @@
       "source_file": "components/QrScanner.js",
       "source_location": "L1",
       "id": "components_qrscanner_js",
-      "community": 10,
+      "community": 11,
       "norm_label": "qrscanner.js"
     },
     {
@@ -524,7 +560,7 @@
       "source_file": "components/QrScanner.js",
       "source_location": "L32",
       "id": "components_qrscanner_qrscanner",
-      "community": 10,
+      "community": 11,
       "norm_label": "qrscanner()"
     },
     {
@@ -533,7 +569,7 @@
       "source_file": "components/QrScanner.js",
       "source_location": "L227",
       "id": "components_qrscanner_describecameraerror",
-      "community": 10,
+      "community": 11,
       "norm_label": "describecameraerror()"
     },
     {
@@ -542,7 +578,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L1",
       "id": "components_navbar_js",
-      "community": 7,
+      "community": 8,
       "norm_label": "navbar.js"
     },
     {
@@ -551,7 +587,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L8",
       "id": "components_navbar_pagebrand",
-      "community": 7,
+      "community": 8,
       "norm_label": "pagebrand()"
     },
     {
@@ -560,7 +596,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L13",
       "id": "components_navbar_icondashboard",
-      "community": 7,
+      "community": 8,
       "norm_label": "icondashboard()"
     },
     {
@@ -569,7 +605,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L19",
       "id": "components_navbar_iconscan",
-      "community": 7,
+      "community": 8,
       "norm_label": "iconscan()"
     },
     {
@@ -578,7 +614,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L26",
       "id": "components_navbar_iconsearch",
-      "community": 7,
+      "community": 8,
       "norm_label": "iconsearch()"
     },
     {
@@ -587,7 +623,7 @@
       "source_file": "components/Navbar.js",
       "source_location": "L33",
       "id": "components_navbar_iconreports",
-      "community": 7,
+      "community": 8,
       "norm_label": "iconreports()"
     },
     {
@@ -596,16 +632,25 @@
       "source_file": "components/Navbar.js",
       "source_location": "L40",
       "id": "components_navbar_iconadmin",
-      "community": 7,
+      "community": 8,
       "norm_label": "iconadmin()"
+    },
+    {
+      "label": "IconReturns()",
+      "file_type": "code",
+      "source_file": "components/Navbar.js",
+      "source_location": "L47",
+      "id": "components_navbar_iconreturns",
+      "community": 8,
+      "norm_label": "iconreturns()"
     },
     {
       "label": "Navbar()",
       "file_type": "code",
       "source_file": "components/Navbar.js",
-      "source_location": "L55",
+      "source_location": "L63",
       "id": "components_navbar_navbar",
-      "community": 7,
+      "community": 8,
       "norm_label": "navbar()"
     },
     {
@@ -614,7 +659,7 @@
       "source_file": "components/LoadingOverlay.js",
       "source_location": "L1",
       "id": "components_loadingoverlay_js",
-      "community": 2,
+      "community": 1,
       "norm_label": "loadingoverlay.js"
     },
     {
@@ -623,7 +668,7 @@
       "source_file": "components/LoadingOverlay.js",
       "source_location": "L7",
       "id": "components_loadingoverlay_useloading",
-      "community": 2,
+      "community": 1,
       "norm_label": "useloading()"
     },
     {
@@ -632,7 +677,7 @@
       "source_file": "components/LoadingOverlay.js",
       "source_location": "L11",
       "id": "components_loadingoverlay_loadingprovider",
-      "community": 2,
+      "community": 1,
       "norm_label": "loadingprovider()"
     },
     {
@@ -641,7 +686,7 @@
       "source_file": "components/Brand.js",
       "source_location": "L1",
       "id": "components_brand_js",
-      "community": 12,
+      "community": 13,
       "norm_label": "brand.js"
     },
     {
@@ -650,7 +695,7 @@
       "source_file": "components/Brand.js",
       "source_location": "L23",
       "id": "components_brand_brand",
-      "community": 12,
+      "community": 13,
       "norm_label": "brand()"
     },
     {
@@ -659,7 +704,7 @@
       "source_file": "components/ConfirmModal.js",
       "source_location": "L1",
       "id": "components_confirmmodal_js",
-      "community": 13,
+      "community": 14,
       "norm_label": "confirmmodal.js"
     },
     {
@@ -668,7 +713,7 @@
       "source_file": "components/ConfirmModal.js",
       "source_location": "L5",
       "id": "components_confirmmodal_confirmmodal",
-      "community": 13,
+      "community": 14,
       "norm_label": "confirmmodal()"
     },
     {
@@ -677,7 +722,7 @@
       "source_file": "components/Toast.js",
       "source_location": "L1",
       "id": "components_toast_js",
-      "community": 2,
+      "community": 1,
       "norm_label": "toast.js"
     },
     {
@@ -686,7 +731,7 @@
       "source_file": "components/Toast.js",
       "source_location": "L7",
       "id": "components_toast_usetoast",
-      "community": 2,
+      "community": 1,
       "norm_label": "usetoast()"
     },
     {
@@ -695,7 +740,7 @@
       "source_file": "components/Toast.js",
       "source_location": "L18",
       "id": "components_toast_toastprovider",
-      "community": 2,
+      "community": 1,
       "norm_label": "toastprovider()"
     },
     {
@@ -704,7 +749,7 @@
       "source_file": "lib/notification-service.js",
       "source_location": "L1",
       "id": "lib_notification_service_js",
-      "community": 3,
+      "community": 4,
       "norm_label": "notification-service.js"
     },
     {
@@ -713,7 +758,7 @@
       "source_file": "lib/notification-service.js",
       "source_location": "L16",
       "id": "lib_notification_service_getalerts",
-      "community": 3,
+      "community": 4,
       "norm_label": "getalerts()"
     },
     {
@@ -722,7 +767,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L1",
       "id": "lib_dashboard_service_js",
-      "community": 3,
+      "community": 4,
       "norm_label": "dashboard-service.js"
     },
     {
@@ -731,7 +776,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L17",
       "id": "lib_dashboard_service_getdashboarddata",
-      "community": 3,
+      "community": 4,
       "norm_label": "getdashboarddata()"
     },
     {
@@ -740,7 +785,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L138",
       "id": "lib_dashboard_service_getreportdata",
-      "community": 3,
+      "community": 4,
       "norm_label": "getreportdata()"
     },
     {
@@ -749,7 +794,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L165",
       "id": "lib_dashboard_service_getfilteredtransactions",
-      "community": 3,
+      "community": 4,
       "norm_label": "getfilteredtransactions()"
     },
     {
@@ -758,7 +803,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L191",
       "id": "lib_dashboard_service_formatdatestr",
-      "community": 3,
+      "community": 4,
       "norm_label": "formatdatestr()"
     },
     {
@@ -767,7 +812,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L202",
       "id": "lib_dashboard_service_reportinventorymovement",
-      "community": 3,
+      "community": 4,
       "norm_label": "reportinventorymovement()"
     },
     {
@@ -776,7 +821,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L220",
       "id": "lib_dashboard_service_reportemployeeusage",
-      "community": 3,
+      "community": 4,
       "norm_label": "reportemployeeusage()"
     },
     {
@@ -785,7 +830,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L247",
       "id": "lib_dashboard_service_reportmonthlyconsumption",
-      "community": 3,
+      "community": 4,
       "norm_label": "reportmonthlyconsumption()"
     },
     {
@@ -794,7 +839,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L272",
       "id": "lib_dashboard_service_reportstockvalue",
-      "community": 3,
+      "community": 4,
       "norm_label": "reportstockvalue()"
     },
     {
@@ -803,7 +848,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L299",
       "id": "lib_dashboard_service_reportlowstock",
-      "community": 3,
+      "community": 4,
       "norm_label": "reportlowstock()"
     },
     {
@@ -812,7 +857,7 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L325",
       "id": "lib_dashboard_service_reportfastmoving",
-      "community": 3,
+      "community": 4,
       "norm_label": "reportfastmoving()"
     },
     {
@@ -821,8 +866,98 @@
       "source_file": "lib/dashboard-service.js",
       "source_location": "L349",
       "id": "lib_dashboard_service_reportslowmoving",
-      "community": 3,
+      "community": 4,
       "norm_label": "reportslowmoving()"
+    },
+    {
+      "label": "returns-service.mjs",
+      "file_type": "code",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L1",
+      "id": "lib_returns_service_mjs",
+      "community": 7,
+      "norm_label": "returns-service.mjs"
+    },
+    {
+      "label": "holdingKey()",
+      "file_type": "code",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L19",
+      "id": "lib_returns_service_holdingkey",
+      "community": 7,
+      "norm_label": "holdingkey()"
+    },
+    {
+      "label": "parseQty()",
+      "file_type": "code",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L22",
+      "id": "lib_returns_service_parseqty",
+      "community": 7,
+      "norm_label": "parseqty()"
+    },
+    {
+      "label": "parseTs()",
+      "file_type": "code",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L27",
+      "id": "lib_returns_service_parsets",
+      "community": 7,
+      "norm_label": "parsets()"
+    },
+    {
+      "label": "computeOpenHoldings()",
+      "file_type": "code",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L48",
+      "id": "lib_returns_service_computeopenholdings",
+      "community": 7,
+      "norm_label": "computeopenholdings()"
+    },
+    {
+      "label": "buildEmployeeOpenHoldings()",
+      "file_type": "code",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L161",
+      "id": "lib_returns_service_buildemployeeopenholdings",
+      "community": 7,
+      "norm_label": "buildemployeeopenholdings()"
+    },
+    {
+      "label": "getOpenHoldingQty()",
+      "file_type": "code",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L186",
+      "id": "lib_returns_service_getopenholdingqty",
+      "community": 7,
+      "norm_label": "getopenholdingqty()"
+    },
+    {
+      "label": "validateReturnRequests()",
+      "file_type": "code",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L207",
+      "id": "lib_returns_service_validatereturnrequests",
+      "community": 7,
+      "norm_label": "validatereturnrequests()"
+    },
+    {
+      "label": "returns-service.test.mjs",
+      "file_type": "code",
+      "source_file": "lib/returns-service.test.mjs",
+      "source_location": "L1",
+      "id": "lib_returns_service_test_mjs",
+      "community": 7,
+      "norm_label": "returns-service.test.mjs"
+    },
+    {
+      "label": "T()",
+      "file_type": "code",
+      "source_file": "lib/returns-service.test.mjs",
+      "source_location": "L15",
+      "id": "lib_returns_service_test_t",
+      "community": 7,
+      "norm_label": "t()"
     },
     {
       "label": "qr-service.js",
@@ -830,7 +965,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L1",
       "id": "lib_qr_service_js",
-      "community": 1,
+      "community": 6,
       "norm_label": "qr-service.js"
     },
     {
@@ -839,7 +974,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L33",
       "id": "lib_qr_service_generateqrcodeurl",
-      "community": 1,
+      "community": 6,
       "norm_label": "generateqrcodeurl()"
     },
     {
@@ -848,7 +983,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L62",
       "id": "lib_qr_service_getallqrdata",
-      "community": 1,
+      "community": 6,
       "norm_label": "getallqrdata()"
     },
     {
@@ -857,7 +992,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L92",
       "id": "lib_qr_service_generateallmissingqrcodes",
-      "community": 1,
+      "community": 6,
       "norm_label": "generateallmissingqrcodes()"
     },
     {
@@ -866,7 +1001,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L123",
       "id": "lib_qr_service_generateqrcodeforlocation",
-      "community": 1,
+      "community": 6,
       "norm_label": "generateqrcodeforlocation()"
     },
     {
@@ -875,7 +1010,7 @@
       "source_file": "lib/qr-service.js",
       "source_location": "L148",
       "id": "lib_qr_service_getqrlabelsforprint",
-      "community": 1,
+      "community": 6,
       "norm_label": "getqrlabelsforprint()"
     },
     {
@@ -884,7 +1019,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L1",
       "id": "lib_sheets_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "sheets.js"
     },
     {
@@ -893,7 +1028,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L20",
       "id": "lib_sheets_getsheetsclient",
-      "community": 1,
+      "community": 0,
       "norm_label": "getsheetsclient()"
     },
     {
@@ -902,7 +1037,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L42",
       "id": "lib_sheets_readsheet",
-      "community": 1,
+      "community": 0,
       "norm_label": "readsheet()"
     },
     {
@@ -911,7 +1046,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L61",
       "id": "lib_sheets_readrange",
-      "community": 1,
+      "community": 0,
       "norm_label": "readrange()"
     },
     {
@@ -920,7 +1055,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L73",
       "id": "lib_sheets_appendrow",
-      "community": 1,
+      "community": 0,
       "norm_label": "appendrow()"
     },
     {
@@ -929,7 +1064,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L89",
       "id": "lib_sheets_appendrows",
-      "community": 1,
+      "community": 0,
       "norm_label": "appendrows()"
     },
     {
@@ -938,7 +1073,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L106",
       "id": "lib_sheets_updaterange",
-      "community": 1,
+      "community": 0,
       "norm_label": "updaterange()"
     },
     {
@@ -947,7 +1082,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L121",
       "id": "lib_sheets_updatecell",
-      "community": 1,
+      "community": 6,
       "norm_label": "updatecell()"
     },
     {
@@ -956,7 +1091,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L131",
       "id": "lib_sheets_batchupdate",
-      "community": 1,
+      "community": 0,
       "norm_label": "batchupdate()"
     },
     {
@@ -965,7 +1100,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L152",
       "id": "lib_sheets_rowstoobjects",
-      "community": 3,
+      "community": 4,
       "norm_label": "rowstoobjects()"
     },
     {
@@ -974,7 +1109,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L168",
       "id": "lib_sheets_columntoletter",
-      "community": 1,
+      "community": 0,
       "norm_label": "columntoletter()"
     },
     {
@@ -983,7 +1118,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L182",
       "id": "lib_sheets_getconfigvalue",
-      "community": 1,
+      "community": 0,
       "norm_label": "getconfigvalue()"
     },
     {
@@ -992,7 +1127,7 @@
       "source_file": "lib/sheets.js",
       "source_location": "L193",
       "id": "lib_sheets_setconfigvalue",
-      "community": 1,
+      "community": 0,
       "norm_label": "setconfigvalue()"
     },
     {
@@ -1001,52 +1136,52 @@
       "source_file": "lib/transaction-service.js",
       "source_location": "L1",
       "id": "lib_transaction_service_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "transaction-service.js"
     },
     {
       "label": "acquireLock()",
       "file_type": "code",
       "source_file": "lib/transaction-service.js",
-      "source_location": "L17",
+      "source_location": "L23",
       "id": "lib_transaction_service_acquirelock",
-      "community": 1,
+      "community": 0,
       "norm_label": "acquirelock()"
     },
     {
       "label": "releaseLock()",
       "file_type": "code",
       "source_file": "lib/transaction-service.js",
-      "source_location": "L28",
+      "source_location": "L34",
       "id": "lib_transaction_service_releaselock",
-      "community": 1,
+      "community": 0,
       "norm_label": "releaselock()"
     },
     {
       "label": "processTransaction()",
       "file_type": "code",
       "source_file": "lib/transaction-service.js",
-      "source_location": "L35",
+      "source_location": "L41",
       "id": "lib_transaction_service_processtransaction",
-      "community": 1,
+      "community": 0,
       "norm_label": "processtransaction()"
     },
     {
       "label": "getItemTransactionHistory()",
       "file_type": "code",
       "source_file": "lib/transaction-service.js",
-      "source_location": "L227",
+      "source_location": "L254",
       "id": "lib_transaction_service_getitemtransactionhistory",
-      "community": 1,
+      "community": 0,
       "norm_label": "getitemtransactionhistory()"
     },
     {
       "label": "getLocationTransactionHistory()",
       "file_type": "code",
       "source_file": "lib/transaction-service.js",
-      "source_location": "L248",
+      "source_location": "L275",
       "id": "lib_transaction_service_getlocationtransactionhistory",
-      "community": 1,
+      "community": 0,
       "norm_label": "getlocationtransactionhistory()"
     },
     {
@@ -1055,7 +1190,7 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L1",
       "id": "lib_sheets_service_js",
-      "community": 1,
+      "community": 0,
       "norm_label": "sheets-service.js"
     },
     {
@@ -1064,7 +1199,7 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L25",
       "id": "lib_sheets_service_getinventorybylocation",
-      "community": 1,
+      "community": 0,
       "norm_label": "getinventorybylocation()"
     },
     {
@@ -1073,7 +1208,7 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L50",
       "id": "lib_sheets_service_getlocationdetails",
-      "community": 1,
+      "community": 0,
       "norm_label": "getlocationdetails()"
     },
     {
@@ -1082,7 +1217,7 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L73",
       "id": "lib_sheets_service_getalllocations",
-      "community": 3,
+      "community": 4,
       "norm_label": "getalllocations()"
     },
     {
@@ -1091,7 +1226,7 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L81",
       "id": "lib_sheets_service_getallemployees",
-      "community": 1,
+      "community": 0,
       "norm_label": "getallemployees()"
     },
     {
@@ -1100,7 +1235,7 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L89",
       "id": "lib_sheets_service_validateemployee",
-      "community": 1,
+      "community": 0,
       "norm_label": "validateemployee()"
     },
     {
@@ -1109,7 +1244,7 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L131",
       "id": "lib_sheets_service_searchinventory",
-      "community": 1,
+      "community": 0,
       "norm_label": "searchinventory()"
     },
     {
@@ -1118,7 +1253,7 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L184",
       "id": "lib_sheets_service_getallinventory",
-      "community": 3,
+      "community": 4,
       "norm_label": "getallinventory()"
     },
     {
@@ -1127,52 +1262,61 @@
       "source_file": "lib/sheets-service.js",
       "source_location": "L192",
       "id": "lib_sheets_service_getrecenttransactions",
-      "community": 3,
+      "community": 4,
       "norm_label": "getrecenttransactions()"
+    },
+    {
+      "label": "getAllTransactions()",
+      "file_type": "code",
+      "source_file": "lib/sheets-service.js",
+      "source_location": "L203",
+      "id": "lib_sheets_service_getalltransactions",
+      "community": 0,
+      "norm_label": "getalltransactions()"
     },
     {
       "label": "searchTransactions()",
       "file_type": "code",
       "source_file": "lib/sheets-service.js",
-      "source_location": "L202",
+      "source_location": "L211",
       "id": "lib_sheets_service_searchtransactions",
-      "community": 1,
+      "community": 0,
       "norm_label": "searchtransactions()"
     },
     {
       "label": "generateNextId()",
       "file_type": "code",
       "source_file": "lib/sheets-service.js",
-      "source_location": "L230",
+      "source_location": "L239",
       "id": "lib_sheets_service_generatenextid",
-      "community": 1,
+      "community": 0,
       "norm_label": "generatenextid()"
     },
     {
       "label": "addNewLocation()",
       "file_type": "code",
       "source_file": "lib/sheets-service.js",
-      "source_location": "L240",
+      "source_location": "L249",
       "id": "lib_sheets_service_addnewlocation",
-      "community": 1,
+      "community": 0,
       "norm_label": "addnewlocation()"
     },
     {
       "label": "addNewEmployee()",
       "file_type": "code",
       "source_file": "lib/sheets-service.js",
-      "source_location": "L275",
+      "source_location": "L284",
       "id": "lib_sheets_service_addnewemployee",
-      "community": 1,
+      "community": 0,
       "norm_label": "addnewemployee()"
     },
     {
       "label": "addNewInventoryItem()",
       "file_type": "code",
       "source_file": "lib/sheets-service.js",
-      "source_location": "L304",
+      "source_location": "L313",
       "id": "lib_sheets_service_addnewinventoryitem",
-      "community": 1,
+      "community": 0,
       "norm_label": "addnewinventoryitem()"
     },
     {
@@ -1181,7 +1325,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L1",
       "id": "lib_utils_js",
-      "community": 5,
+      "community": 9,
       "norm_label": "utils.js"
     },
     {
@@ -1190,7 +1334,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L20",
       "id": "lib_utils_highresqrurl",
-      "community": 5,
+      "community": 9,
       "norm_label": "highresqrurl()"
     },
     {
@@ -1199,7 +1343,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L50",
       "id": "lib_utils_escapehtml",
-      "community": 5,
+      "community": 9,
       "norm_label": "escapehtml()"
     },
     {
@@ -1208,7 +1352,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L58",
       "id": "lib_utils_formatdate",
-      "community": 5,
+      "community": 9,
       "norm_label": "formatdate()"
     },
     {
@@ -1217,7 +1361,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L73",
       "id": "lib_utils_formatdatetime",
-      "community": 5,
+      "community": 9,
       "norm_label": "formatdatetime()"
     },
     {
@@ -1226,7 +1370,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L94",
       "id": "lib_utils_formatcurrency",
-      "community": 2,
+      "community": 1,
       "norm_label": "formatcurrency()"
     },
     {
@@ -1235,7 +1379,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L102",
       "id": "lib_utils_timeago",
-      "community": 5,
+      "community": 9,
       "norm_label": "timeago()"
     },
     {
@@ -1244,7 +1388,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L119",
       "id": "lib_utils_debounce",
-      "community": 5,
+      "community": 9,
       "norm_label": "debounce()"
     },
     {
@@ -1253,7 +1397,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L130",
       "id": "lib_utils_copytoclipboard",
-      "community": 5,
+      "community": 9,
       "norm_label": "copytoclipboard()"
     },
     {
@@ -1262,7 +1406,7 @@
       "source_file": "lib/utils.js",
       "source_location": "L155",
       "id": "lib_utils_callapi",
-      "community": 5,
+      "community": 9,
       "norm_label": "callapi()"
     },
     {
@@ -1271,7 +1415,7 @@
       "source_file": "lib/qr-parse.test.mjs",
       "source_location": "L1",
       "id": "lib_qr_parse_test_mjs",
-      "community": 8,
+      "community": 10,
       "norm_label": "qr-parse.test.mjs"
     },
     {
@@ -1280,7 +1424,7 @@
       "source_file": "lib/qr-parse.mjs",
       "source_location": "L1",
       "id": "lib_qr_parse_mjs",
-      "community": 8,
+      "community": 10,
       "norm_label": "qr-parse.mjs"
     },
     {
@@ -1289,7 +1433,7 @@
       "source_file": "lib/qr-parse.mjs",
       "source_location": "L23",
       "id": "lib_qr_parse_parselocationfromqr",
-      "community": 8,
+      "community": 10,
       "norm_label": "parselocationfromqr()"
     },
     {
@@ -1298,7 +1442,7 @@
       "source_file": "lib/qr-parse.mjs",
       "source_location": "L51",
       "id": "lib_qr_parse_normalize",
-      "community": 8,
+      "community": 10,
       "norm_label": "normalize()"
     },
     {
@@ -1310,7 +1454,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 19,
+      "community": 20,
       "norm_label": "nextconfig",
       "id": "next_config_mjs_nextconfig"
     },
@@ -1323,7 +1467,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 20,
+      "community": 21,
       "norm_label": "defineconfig",
       "id": "eslint_config_mjs_defineconfig"
     },
@@ -1336,7 +1480,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 1,
       "norm_label": "rootlayout",
       "id": "layout_rootlayout"
     },
@@ -1349,7 +1493,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 21,
+      "community": 22,
       "norm_label": "metadata export",
       "id": "layout_metadata"
     },
@@ -1362,7 +1506,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 22,
+      "community": 23,
       "norm_label": "viewport export",
       "id": "layout_viewport"
     },
@@ -1375,7 +1519,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "dashboardpage",
       "id": "page_dashboardpage"
     },
@@ -1388,7 +1532,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "loadlocations",
       "id": "admin_page_loadlocations"
     },
@@ -1401,7 +1545,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "loademployees",
       "id": "admin_page_loademployees"
     },
@@ -1414,7 +1558,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "addlocation",
       "id": "admin_page_addlocation"
     },
@@ -1427,7 +1571,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "addemployee",
       "id": "admin_page_addemployee"
     },
@@ -1440,7 +1584,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "additem",
       "id": "admin_page_additem"
     },
@@ -1453,7 +1597,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "loadqrstatus",
       "id": "admin_page_loadqrstatus"
     },
@@ -1466,7 +1610,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "generatemissingqr",
       "id": "admin_page_generatemissingqr"
     },
@@ -1479,7 +1623,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "loadalerts",
       "id": "admin_page_loadalerts"
     },
@@ -1492,7 +1636,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "norm_label": "loadlocation",
       "id": "scan_page_loadlocation"
     },
@@ -1505,7 +1649,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 14,
+      "community": 15,
       "norm_label": "handlelocationsubmit",
       "id": "scan_page_handlelocationsubmit"
     },
@@ -1518,7 +1662,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "handlevalidateemployee",
       "id": "scan_page_handlevalidateemployee"
     },
@@ -1531,7 +1675,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 23,
+      "community": 24,
       "norm_label": "handleactionselect",
       "id": "scan_page_handleactionselect"
     },
@@ -1544,7 +1688,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "handleconfirmtransaction",
       "id": "scan_page_handleconfirmtransaction"
     },
@@ -1557,7 +1701,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 24,
+      "community": 25,
       "norm_label": "updateqty",
       "id": "scan_page_updateqty"
     },
@@ -1570,7 +1714,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 25,
+      "community": 26,
       "norm_label": "setqty",
       "id": "scan_page_setqty"
     },
@@ -1583,7 +1727,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "loadlabels",
       "id": "print_page_loadlabels"
     },
@@ -1596,7 +1740,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 26,
+      "community": 27,
       "norm_label": "handleprint",
       "id": "print_page_handletprint"
     },
@@ -1609,7 +1753,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "dosearch",
       "id": "search_page_dosearch"
     },
@@ -1622,7 +1766,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 27,
+      "community": 28,
       "norm_label": "viewitem",
       "id": "search_page_viewitem"
     },
@@ -1635,7 +1779,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 28,
+      "community": 29,
       "norm_label": "getstatusclass",
       "id": "search_page_getstatusclass"
     },
@@ -1648,7 +1792,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "generatereport",
       "id": "reports_page_generatereport"
     },
@@ -1661,7 +1805,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "exportcsv",
       "id": "reports_page_exportcsv"
     },
@@ -1674,7 +1818,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 29,
+      "community": 30,
       "norm_label": "report_types",
       "id": "reports_page_report_types"
     },
@@ -1687,7 +1831,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "navbar",
       "id": "navbar_navbar"
     },
@@ -1700,7 +1844,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 30,
+      "community": 31,
       "norm_label": "navitems",
       "id": "navbar_navitems"
     },
@@ -1713,7 +1857,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 1,
       "norm_label": "loadingprovider",
       "id": "loadingoverlay_loadingprovider"
     },
@@ -1726,7 +1870,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "useloading",
       "id": "loadingoverlay_useloading"
     },
@@ -1739,7 +1883,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "showloading",
       "id": "loadingoverlay_showloading"
     },
@@ -1752,7 +1896,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "hideloading",
       "id": "loadingoverlay_hideloading"
     },
@@ -1765,7 +1909,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "confirmmodal",
       "id": "confirmmodal_confirmmodal"
     },
@@ -1778,7 +1922,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 31,
+      "community": 32,
       "norm_label": "handleclose",
       "id": "confirmmodal_handleclose"
     },
@@ -1791,7 +1935,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 1,
       "norm_label": "toastprovider",
       "id": "toast_toastprovider"
     },
@@ -1804,7 +1948,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "usetoast",
       "id": "toast_usetoast"
     },
@@ -1817,7 +1961,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 4,
+      "community": 5,
       "norm_label": "showtoast",
       "id": "toast_showtoast"
     },
@@ -1830,7 +1974,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "transaction action types (take / return / expense)",
       "id": "transaction_action_types"
     },
@@ -1843,7 +1987,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 2,
+      "community": 1,
       "norm_label": "inventory status types (in stock / low stock / out of stock)",
       "id": "inventory_status_types"
     },
@@ -1856,7 +2000,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 9,
+      "community": 1,
       "norm_label": "provider nesting pattern (toast > loading > content + navbar)",
       "id": "provider_nesting_pattern"
     },
@@ -1869,7 +2013,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "get /api/qr handler",
       "id": "route_get"
     },
@@ -1882,7 +2026,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "post /api/qr handler",
       "id": "route_post"
     },
@@ -1895,7 +2039,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "get /api/alerts handler",
       "id": "alerts_get"
     },
@@ -1908,7 +2052,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "get /api/dashboard handler",
       "id": "dashboard_get"
     },
@@ -1921,7 +2065,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "get /api/transactions handler",
       "id": "transactions_get"
     },
@@ -1934,7 +2078,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "post /api/transactions handler",
       "id": "transactions_post"
     },
@@ -1947,7 +2091,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "get /api/locations handler",
       "id": "locations_get"
     },
@@ -1960,7 +2104,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "post /api/locations handler",
       "id": "locations_post"
     },
@@ -1973,7 +2117,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "get /api/inventory handler",
       "id": "inventory_get"
     },
@@ -1986,7 +2130,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "post /api/inventory handler",
       "id": "inventory_post"
     },
@@ -1999,7 +2143,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "get /api/inventory/search handler",
       "id": "inventory_search_get"
     },
@@ -2012,7 +2156,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "get /api/reports handler",
       "id": "reports_get"
     },
@@ -2025,7 +2169,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "get /api/employees handler",
       "id": "employees_get"
     },
@@ -2038,7 +2182,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "post /api/employees handler",
       "id": "employees_post"
     },
@@ -2051,7 +2195,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "post /api/employees/validate handler",
       "id": "employees_validate_post"
     },
@@ -2064,7 +2208,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getalerts",
       "id": "notification_service_getalerts"
     },
@@ -2077,7 +2221,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getdashboarddata",
       "id": "dashboard_service_getdashboarddata"
     },
@@ -2090,7 +2234,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "getreportdata",
       "id": "dashboard_service_getreportdata"
     },
@@ -2103,7 +2247,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "getfilteredtransactions",
       "id": "dashboard_service_getfilteredtransactions"
     },
@@ -2116,7 +2260,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "reportinventorymovement",
       "id": "dashboard_service_reportinventorymovement"
     },
@@ -2129,7 +2273,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "reportemployeeusage",
       "id": "dashboard_service_reportemployeeusage"
     },
@@ -2142,7 +2286,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "reportmonthlyconsumption",
       "id": "dashboard_service_reportmonthlyconsumption"
     },
@@ -2155,7 +2299,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "reportstockvalue",
       "id": "dashboard_service_reportstockvalue"
     },
@@ -2168,7 +2312,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "reportlowstock",
       "id": "dashboard_service_reportlowstock"
     },
@@ -2181,7 +2325,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "reportfastmoving",
       "id": "dashboard_service_reportfastmoving"
     },
@@ -2194,7 +2338,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 6,
+      "community": 2,
       "norm_label": "reportslowmoving",
       "id": "dashboard_service_reportslowmoving"
     },
@@ -2207,7 +2351,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "generateqrcodeurl",
       "id": "qr_service_generateqrcodeurl"
     },
@@ -2220,7 +2364,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getallqrdata",
       "id": "qr_service_getallqrdata"
     },
@@ -2233,7 +2377,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "generateallmissingqrcodes",
       "id": "qr_service_generateallmissingqrcodes"
     },
@@ -2246,7 +2390,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "generateqrcodeforlocation",
       "id": "qr_service_generateqrcodeforlocation"
     },
@@ -2259,7 +2403,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "getqrlabelsforprint",
       "id": "qr_service_getqrlabelsforprint"
     },
@@ -2272,7 +2416,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "getsheetsclient",
       "id": "sheets_getsheetsclient"
     },
@@ -2285,7 +2429,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "readsheet",
       "id": "sheets_readsheet"
     },
@@ -2298,7 +2442,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "readrange",
       "id": "sheets_readrange"
     },
@@ -2311,7 +2455,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "appendrow",
       "id": "sheets_appendrow"
     },
@@ -2324,7 +2468,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "appendrows",
       "id": "sheets_appendrows"
     },
@@ -2337,7 +2481,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "updaterange",
       "id": "sheets_updaterange"
     },
@@ -2350,7 +2494,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "updatecell",
       "id": "sheets_updatecell"
     },
@@ -2363,7 +2507,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "batchupdate",
       "id": "sheets_batchupdate"
     },
@@ -2376,7 +2520,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "rowstoobjects",
       "id": "sheets_rowstoobjects"
     },
@@ -2389,7 +2533,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "columntoletter",
       "id": "sheets_columntoletter"
     },
@@ -2402,7 +2546,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "getconfigvalue",
       "id": "sheets_getconfigvalue"
     },
@@ -2415,7 +2559,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "setconfigvalue",
       "id": "sheets_setconfigvalue"
     },
@@ -2428,7 +2572,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "acquirelock",
       "id": "transaction_service_acquirelock"
     },
@@ -2441,7 +2585,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "releaselock",
       "id": "transaction_service_releaselock"
     },
@@ -2454,7 +2598,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "processtransaction",
       "id": "transaction_service_processtransaction"
     },
@@ -2467,7 +2611,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getitemtransactionhistory",
       "id": "transaction_service_getitemtransactionhistory"
     },
@@ -2480,7 +2624,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getlocationtransactionhistory",
       "id": "transaction_service_getlocationtransactionhistory"
     },
@@ -2493,7 +2637,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getinventorybylocation",
       "id": "sheets_service_getinventorybylocation"
     },
@@ -2506,7 +2650,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "getlocationdetails",
       "id": "sheets_service_getlocationdetails"
     },
@@ -2519,7 +2663,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getalllocations",
       "id": "sheets_service_getalllocations"
     },
@@ -2532,7 +2676,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getallemployees",
       "id": "sheets_service_getallemployees"
     },
@@ -2545,7 +2689,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "validateemployee",
       "id": "sheets_service_validateemployee"
     },
@@ -2558,7 +2702,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "searchinventory",
       "id": "sheets_service_searchinventory"
     },
@@ -2571,7 +2715,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getallinventory",
       "id": "sheets_service_getallinventory"
     },
@@ -2584,7 +2728,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "getrecenttransactions",
       "id": "sheets_service_getrecenttransactions"
     },
@@ -2597,7 +2741,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "searchtransactions",
       "id": "sheets_service_searchtransactions"
     },
@@ -2610,7 +2754,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "generatenextid",
       "id": "sheets_service_generatenextid"
     },
@@ -2623,7 +2767,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "addnewlocation",
       "id": "sheets_service_addnewlocation"
     },
@@ -2636,7 +2780,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "addnewemployee",
       "id": "sheets_service_addnewemployee"
     },
@@ -2649,7 +2793,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "addnewinventoryitem",
       "id": "sheets_service_addnewinventoryitem"
     },
@@ -2662,7 +2806,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 32,
+      "community": 33,
       "norm_label": "escapehtml",
       "id": "utils_escapehtml"
     },
@@ -2675,7 +2819,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "norm_label": "formatdate",
       "id": "utils_formatdate"
     },
@@ -2688,7 +2832,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 15,
+      "community": 16,
       "norm_label": "formatdatetime",
       "id": "utils_formatdatetime"
     },
@@ -2701,7 +2845,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 33,
+      "community": 34,
       "norm_label": "formatcurrency",
       "id": "utils_formatcurrency"
     },
@@ -2714,7 +2858,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 34,
+      "community": 35,
       "norm_label": "timeago",
       "id": "utils_timeago"
     },
@@ -2727,7 +2871,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 35,
+      "community": 36,
       "norm_label": "debounce",
       "id": "utils_debounce"
     },
@@ -2740,7 +2884,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 36,
+      "community": 37,
       "norm_label": "copytoclipboard",
       "id": "utils_copytoclipboard"
     },
@@ -2753,7 +2897,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 37,
+      "community": 38,
       "norm_label": "callapi",
       "id": "utils_callapi"
     },
@@ -2766,7 +2910,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 38,
+      "community": 39,
       "norm_label": "jedlik motors inventory readme",
       "id": "readme"
     },
@@ -2779,7 +2923,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 39,
+      "community": 40,
       "norm_label": "next.js agent rules",
       "id": "agents_md"
     },
@@ -2792,7 +2936,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 40,
+      "community": 41,
       "norm_label": "project claude.md",
       "id": "claude_md"
     },
@@ -2805,7 +2949,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 41,
+      "community": 42,
       "norm_label": "vercel text logo (file.svg)",
       "id": "file_svg"
     },
@@ -2818,7 +2962,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 42,
+      "community": 43,
       "norm_label": "vercel triangle logo (vercel.svg)",
       "id": "vercel_svg"
     },
@@ -2831,7 +2975,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 43,
+      "community": 44,
       "norm_label": "next.js document icon (next.svg)",
       "id": "next_svg"
     },
@@ -2844,7 +2988,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 44,
+      "community": 45,
       "norm_label": "globe icon (globe.svg)",
       "id": "globe_svg"
     },
@@ -2857,7 +3001,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 45,
+      "community": 46,
       "norm_label": "window icon (window.svg)",
       "id": "window_svg"
     },
@@ -2870,7 +3014,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "quickchart.io qr generation api",
       "id": "quickchart_io"
     },
@@ -2883,7 +3027,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "norm_label": "google sheets as database backend",
       "id": "google_sheets_backend"
     },
@@ -2896,7 +3040,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "google service account authentication",
       "id": "gsheets_auth"
     },
@@ -2909,7 +3053,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 3,
       "norm_label": "in-memory mutex for transaction writes",
       "id": "transaction_lock_pattern"
     },
@@ -2922,7 +3066,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 0,
+      "community": 2,
       "norm_label": "port from google apps script (.gs) to next.js",
       "id": "port_from_apps_script"
     },
@@ -2935,7 +3079,7 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "community": 16,
+      "community": 17,
       "norm_label": "google sheets schema tabs",
       "id": "sheet_tab_schema"
     }
@@ -3644,6 +3788,49 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/api/returns/route.js",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "app_api_returns_route_js",
+      "target": "returns_route_get",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/api/returns/route.js",
+      "source_location": "L21",
+      "weight": 1.0,
+      "source": "returns_route_get",
+      "target": "lib_sheets_service_getalltransactions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/api/returns/route.js",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "returns_route_get",
+      "target": "lib_sheets_service_getallemployees"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/api/returns/route.js",
+      "source_location": "L25",
+      "weight": 1.0,
+      "source": "returns_route_get",
+      "target": "lib_returns_service_computeopenholdings"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/api/reports/route.js",
       "source_location": "L4",
       "weight": 1.0,
@@ -3728,6 +3915,27 @@
     {
       "relation": "contains",
       "confidence": "EXTRACTED",
+      "source_file": "app/returns/page.js",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "app_returns_page_js",
+      "target": "returns_page_returnspage",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "app/returns/page.js",
+      "source_location": "L14",
+      "weight": 1.0,
+      "source": "returns_page_returnspage",
+      "target": "components_toast_usetoast"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
       "source_file": "app/reports/page.js",
       "source_location": "L18",
       "weight": 1.0,
@@ -3796,9 +4004,9 @@
       "source_file": "components/QrScanner.js",
       "source_location": "L32",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_qrscanner_js",
-      "target": "components_qrscanner_qrscanner",
-      "confidence_score": 1.0
+      "target": "components_qrscanner_qrscanner"
     },
     {
       "relation": "contains",
@@ -3806,9 +4014,9 @@
       "source_file": "components/QrScanner.js",
       "source_location": "L227",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "components_qrscanner_js",
-      "target": "components_qrscanner_describecameraerror",
-      "confidence_score": 1.0
+      "target": "components_qrscanner_describecameraerror"
     },
     {
       "relation": "contains",
@@ -3869,6 +4077,16 @@
       "confidence_score": 1.0,
       "source": "components_navbar_js",
       "target": "components_navbar_iconadmin"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "components/Navbar.js",
+      "source_location": "L47",
+      "weight": 1.0,
+      "source": "components_navbar_js",
+      "target": "components_navbar_iconreturns",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -4378,6 +4596,251 @@
       "weight": 1.0,
       "source": "lib_dashboard_service_reportslowmoving",
       "target": "lib_sheets_service_getallinventory"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L19",
+      "weight": 1.0,
+      "source": "lib_returns_service_mjs",
+      "target": "lib_returns_service_holdingkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L22",
+      "weight": 1.0,
+      "source": "lib_returns_service_mjs",
+      "target": "lib_returns_service_parseqty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "lib_returns_service_mjs",
+      "target": "lib_returns_service_parsets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L48",
+      "weight": 1.0,
+      "source": "lib_returns_service_mjs",
+      "target": "lib_returns_service_computeopenholdings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L161",
+      "weight": 1.0,
+      "source": "lib_returns_service_mjs",
+      "target": "lib_returns_service_buildemployeeopenholdings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L186",
+      "weight": 1.0,
+      "source": "lib_returns_service_mjs",
+      "target": "lib_returns_service_getopenholdingqty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L207",
+      "weight": 1.0,
+      "source": "lib_returns_service_mjs",
+      "target": "lib_returns_service_validatereturnrequests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_returns_service_test_mjs",
+      "target": "lib_returns_service_mjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports_from",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/transaction-service.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "lib_transaction_service_js",
+      "target": "lib_returns_service_mjs",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L82",
+      "weight": 1.0,
+      "source": "lib_returns_service_computeopenholdings",
+      "target": "lib_returns_service_holdingkey",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L74",
+      "weight": 1.0,
+      "source": "lib_returns_service_computeopenholdings",
+      "target": "lib_returns_service_parseqty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L75",
+      "weight": 1.0,
+      "source": "lib_returns_service_computeopenholdings",
+      "target": "lib_returns_service_parsets",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L166",
+      "weight": 1.0,
+      "source": "lib_returns_service_buildemployeeopenholdings",
+      "target": "lib_returns_service_computeopenholdings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_returns_service_test_mjs",
+      "target": "lib_returns_service_computeopenholdings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.mjs",
+      "source_location": "L188",
+      "weight": 1.0,
+      "source": "lib_returns_service_getopenholdingqty",
+      "target": "lib_returns_service_buildemployeeopenholdings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_returns_service_test_mjs",
+      "target": "lib_returns_service_buildemployeeopenholdings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/transaction-service.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "lib_transaction_service_js",
+      "target": "lib_returns_service_buildemployeeopenholdings",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "lib/transaction-service.js",
+      "source_location": "L95",
+      "weight": 1.0,
+      "source": "lib_transaction_service_processtransaction",
+      "target": "lib_returns_service_buildemployeeopenholdings"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_returns_service_test_mjs",
+      "target": "lib_returns_service_getopenholdingqty",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.test.mjs",
+      "source_location": "L4",
+      "weight": 1.0,
+      "source": "lib_returns_service_test_mjs",
+      "target": "lib_returns_service_validatereturnrequests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/transaction-service.js",
+      "source_location": "L18",
+      "weight": 1.0,
+      "source": "lib_transaction_service_js",
+      "target": "lib_returns_service_validatereturnrequests",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "lib/transaction-service.js",
+      "source_location": "L96",
+      "weight": 1.0,
+      "source": "lib_transaction_service_processtransaction",
+      "target": "lib_returns_service_validatereturnrequests"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/returns-service.test.mjs",
+      "source_location": "L15",
+      "weight": 1.0,
+      "source": "lib_returns_service_test_mjs",
+      "target": "lib_returns_service_test_t",
+      "confidence_score": 1.0
     },
     {
       "relation": "imports",
@@ -4907,6 +5370,17 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "lib/sheets-service.js",
+      "source_location": "L204",
+      "weight": 1.0,
+      "source": "lib_sheets_service_getalltransactions",
+      "target": "lib_sheets_readsheet"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "lib/sheets-service.js",
       "source_location": "L203",
       "weight": 1.0,
       "source": "lib_sheets_service_searchtransactions",
@@ -5111,6 +5585,17 @@
       "target": "lib_sheets_rowstoobjects"
     },
     {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "lib/sheets-service.js",
+      "source_location": "L205",
+      "weight": 1.0,
+      "source": "lib_sheets_service_getalltransactions",
+      "target": "lib_sheets_rowstoobjects"
+    },
+    {
       "relation": "imports",
       "context": "import",
       "confidence": "EXTRACTED",
@@ -5186,6 +5671,17 @@
       "confidence_score": 1.0,
       "source": "lib_transaction_service_js",
       "target": "lib_sheets_service_generatenextid"
+    },
+    {
+      "relation": "imports",
+      "context": "import",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/transaction-service.js",
+      "source_location": "L12",
+      "weight": 1.0,
+      "source": "lib_transaction_service_js",
+      "target": "lib_sheets_service_getalltransactions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5287,6 +5783,17 @@
       "confidence": "INFERRED",
       "confidence_score": 0.8,
       "source_file": "lib/transaction-service.js",
+      "source_location": "L94",
+      "weight": 1.0,
+      "source": "lib_transaction_service_processtransaction",
+      "target": "lib_sheets_service_getalltransactions"
+    },
+    {
+      "relation": "calls",
+      "context": "call",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "lib/transaction-service.js",
       "source_location": "L163",
       "weight": 1.0,
       "source": "lib_transaction_service_processtransaction",
@@ -5371,6 +5878,16 @@
       "confidence_score": 1.0,
       "source": "lib_sheets_service_js",
       "target": "lib_sheets_service_getrecenttransactions"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "lib/sheets-service.js",
+      "source_location": "L203",
+      "weight": 1.0,
+      "source": "lib_sheets_service_js",
+      "target": "lib_sheets_service_getalltransactions",
+      "confidence_score": 1.0
     },
     {
       "relation": "contains",
@@ -5563,9 +6080,9 @@
       "source_file": "lib/qr-parse.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_qr_parse_test_mjs",
-      "target": "lib_qr_parse_mjs",
-      "confidence_score": 1.0
+      "target": "lib_qr_parse_mjs"
     },
     {
       "relation": "imports",
@@ -5574,9 +6091,9 @@
       "source_file": "lib/qr-parse.test.mjs",
       "source_location": "L4",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_qr_parse_test_mjs",
-      "target": "lib_qr_parse_parselocationfromqr",
-      "confidence_score": 1.0
+      "target": "lib_qr_parse_parselocationfromqr"
     },
     {
       "relation": "contains",
@@ -5584,9 +6101,9 @@
       "source_file": "lib/qr-parse.mjs",
       "source_location": "L23",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_qr_parse_mjs",
-      "target": "lib_qr_parse_parselocationfromqr",
-      "confidence_score": 1.0
+      "target": "lib_qr_parse_parselocationfromqr"
     },
     {
       "relation": "contains",
@@ -5594,9 +6111,9 @@
       "source_file": "lib/qr-parse.mjs",
       "source_location": "L51",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_qr_parse_mjs",
-      "target": "lib_qr_parse_normalize",
-      "confidence_score": 1.0
+      "target": "lib_qr_parse_normalize"
     },
     {
       "relation": "calls",
@@ -5605,9 +6122,9 @@
       "source_file": "lib/qr-parse.mjs",
       "source_location": "L34",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "lib_qr_parse_parselocationfromqr",
-      "target": "lib_qr_parse_normalize",
-      "confidence_score": 1.0
+      "target": "lib_qr_parse_normalize"
     },
     {
       "relation": "calls",
@@ -7122,5 +7639,5 @@
       "source_file": "lib/qr-service.js"
     }
   ],
-  "built_at_commit": "59dd84222d9a8e8034dbc42956b1df3aceb5119e"
+  "built_at_commit": "b9ee6f8bd5fed62ef961bff5aeeb1b1c400b6a0d"
 }
