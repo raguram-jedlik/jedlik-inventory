@@ -44,9 +44,17 @@ const IconAdmin = () => (
   </svg>
 );
 
+const IconReturns = () => (
+  <svg className="nav-icon" viewBox="0 0 24 24">
+    <path d="M3 12a9 9 0 1 0 3-6.7" />
+    <path d="M3 4v5h5" />
+  </svg>
+);
+
 const navItems = [
   { href: '/', label: 'Home', Icon: IconDashboard },
   { href: '/scan', label: 'Scan', Icon: IconScan },
+  { href: '/returns', label: 'Returns', Icon: IconReturns },
   { href: '/search', label: 'Search', Icon: IconSearch },
   { href: '/reports', label: 'Reports', Icon: IconReports },
   { href: '/admin', label: 'Admin', Icon: IconAdmin },
